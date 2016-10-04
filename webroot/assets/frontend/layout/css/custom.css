@@ -1,0 +1,13 @@
+/* here you can put your own css to customize and override the theme */
+.ls-title,.ls-mini-text {
+    background: #000 none repeat scroll 0 0;
+    border-radius: 10px !important;
+    opacity: 0.6 !important;
+    padding: 10px !important;
+}
+.ls-price{
+    background: #000 none repeat scroll 0 0;
+    border-radius: 10px !important;
+    
+    padding: 10px !important;
+}

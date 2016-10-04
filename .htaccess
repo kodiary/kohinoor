@@ -1,0 +1,29 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    #RewriteBase /
+    RewriteCond %{HTTPS} off
+    RewriteCond %{SERVER_PORT} !^80$
+    
+    RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
+    
+    # FORCE SSL REDIRECTION
+    #RewriteCond %{HTTPS} off
+    #RewriteCond %{ENV:HTTPS} !on [NC]
+    #RewriteCond %{HTTP_HOST} !^localhost(:\d+)?$ [NC]
+    #RewriteCond %{HTTP_HOST} !^staging [NC]
+    #RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
+    
+    RewriteCond %{HTTP_REFERER} !^http://(www\.)?localhost\travel\/ [NC]
+    RewriteCond %{REQUEST_URI} !hotlink\.(png|jpg|doc|xls|pdf|html|htm|xlsx|docx|mp4|mov) [NC]
+    RewriteCond %{HTTP_COOKIE} !^.*Check_login.*$ [NC]
+    #RewriteRule .*\.(png|jpg|doc|xls|pdf|html|htm|xlsx|docx|mp4|mov)$ http://localhost/travel/ [NC]
+    
+	RewriteRule ^(application|application)($|/) - [L]
+	RewriteCond %{REQUEST_URI} !^/(application|application/.*)$ 
+    RewriteRule    ^$    webroot/    [L]
+    RewriteRule    (.*) webroot/$1    [L]
+   
+   
+   
+         
+</IfModule>
