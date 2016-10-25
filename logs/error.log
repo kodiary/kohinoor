@@ -2165,3 +2165,31 @@ Stack Trace:
 #1 {main}
 
 
+2016-10-25 11:18:05 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/js/head.min.js.map
+Client IP: 127.0.0.1
+Stack Trace:
+#0 F:\wamp\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-10-25 11:18:40 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/js/head.min.js.map
+Client IP: 127.0.0.1
+Stack Trace:
+#0 F:\wamp\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
