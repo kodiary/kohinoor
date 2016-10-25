@@ -94,7 +94,7 @@ span.m_1{
 	display: block;
 	margin:0px 15px;
 	color:#fff;
-	font: 400 12px/12px 'Lato', sans-serif;;
+	font: 400 13px 'Lato', sans-serif;;
 	text-transform:uppercase;
 	-webkit-transition: all 0.3s ease-out;
 	-moz-transition: all 0.3s ease-out;
@@ -108,7 +108,9 @@ span.m_1{
 	margin:0
 }
 ul.nav li.active a, .nav li a:hover {
-	color:#4B1C52;
+	color: #ccc;
+    font-size: 15px;
+    font-weight: 900 !important;
 }
 .nav li a:hover {
 }
@@ -555,7 +557,7 @@ ul {
 }
 .menu > li > a:hover, .menu > li > a.active {
 	background:#fff;
-	border-right: 5px solid #4B1C52;
+
 }
 .menu ul.kid-menu li a{
 	border-bottom: none;
@@ -2016,3 +2018,10 @@ img{max-width:100%;}
 .side_group a{padding: 5px;display: block;margin-bottom: 5px;font-weight: bold; background: #FFF}
 a.collapsible{font-weight: bold;font-size:21px;background: #4B1C52;color:#FFF;display:block;padding:5px 10px;}
 .collapsible .fa{float:right;padding-top:5px;}
+.btn-info{background:#4B1C52;color:#FFF;text-shadow:none;padding:8px 24px;border:1px solid #000;border-radius:5px;}
+.btn-info:hover{background:#FFF;color:#4B1C52;border:1px solid #000;}
+.subitem1 a{background: #e5e5e5 none repeat scroll 0 0;
+    font-size: 14px !important;
+    font-weight: normal !important;
+    line-height: 3 !important;
+    padding-left: 21px;}

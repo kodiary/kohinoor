@@ -57,7 +57,7 @@ use Cake\ORM\TableRegistry;
               {
                 ?>
                 <h3 class="menu_head">Pages</h3>
-               <ul class="menu">
+               <ul class="menu" style="border-left: 1px solid #bbb">
                 <?php
               $pgcats = TableRegistry::get('PageCategory')->find()->order(['id'=>'desc'])->all();
               foreach($pgcats as $pgc)
@@ -177,7 +177,8 @@ use Cake\ORM\TableRegistry;
                     <div class="clearfix"></div>
                   </div>
                   <div class="form-group">
-                  <input type="submit" class="btn btn-info" value="Submit"/>
+                    <div class="col-md-12"><input type="submit" class="btn btn-info" value="Submit"/></div>
+                    <div class="clearfix"></div>
                   </div>
               </form>
               </div>
