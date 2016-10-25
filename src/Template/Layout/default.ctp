@@ -16,7 +16,7 @@ use Cake\ORM\TableRegistry;
 <link href="<?php echo $this->request->webroot;?>fa/css/font-awesome.css" rel='stylesheet' type='text/css' />
 <!-- Custom Theme files -->
 <!--webfont-->
-<!--<link href='http://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700,800,900' rel='stylesheet' type='text/css'>-->
+<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet"> 
 <script type="text/javascript" src="<?php echo $this->request->webroot;?>new_layout/js/jquery-1.11.1.min.js"></script>
 <script src="<?php echo $this->request->webroot;?>new_layout/js/responsiveslides.min.js"></script>
 <script>

@@ -8,17 +8,8 @@ h4, h5, h6,
 h1, h2, h3 {margin-top: 0;}
 ul, ol {margin: 0;}
 p {margin: 0;}
-@font-face {
-    font-family: Lato;
-    src: url(Lato-Light.ttf);
-}
-@font-face {
-    font-family: Latobold;
-    src: url(Lato-Black.ttf);
-}
-
 html, body{
-   font-family: 'Lato';
+   font-family: 'Lato', sans-serif;
    font-size: 100%;
    background:#fff; 
 }
@@ -49,7 +40,7 @@ ul.shopping_grid li{
 	background: #eee;
 	padding: 25px 20px 0;
 	border-right: 1px solid #f7f7f7;
-	font: 600 15px/15px 'Lato';
+	font: 600 15px/15px 'Lato', sans-serif;;
 	min-height: 70px;
 	color:#000;
 }
@@ -103,7 +94,7 @@ span.m_1{
 	display: block;
 	margin:0px 15px;
 	color:#fff;
-	font: 400 12px/12px Latobold;
+	font: 400 12px/12px 'Lato', sans-serif;;
 	text-transform:uppercase;
 	-webkit-transition: all 0.3s ease-out;
 	-moz-transition: all 0.3s ease-out;
@@ -349,11 +340,11 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 .banner_desc h1{
 	color:#fff;
-	font: 300 60px/60px 'Lato';
+	font: 300 60px/60px 'Lato', sans-serif;;
 }
 .banner_desc h2{
 	color:#fff;
-	font: 300 20px/20px 'Lato';
+	font: 300 20px/20px 'Lato', sans-serif;;
 	margin-top:1em;
 }
 /*-- responsive-mediaquries --*/
@@ -475,7 +466,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 .stay {
 	float: left;
-	font: 800 13px/13px 'Lato';
+	font: 800 13px/13px 'Lato', sans-serif;;
 	margin: 8px 10px 0 0;
 	text-transform:uppercase;
 	color:#4B1C52;
@@ -551,7 +542,7 @@ ul {
 	width: 100%;
 	display: block;
 	position: relative;
-	font:800 15px/15px 'Lato';
+	font:800 15px/15px 'Lato', sans-serif;;
 	color:#3e3f3f;
 	text-decoration:none;
 	border-bottom: 1px solid #ddd;
@@ -579,19 +570,19 @@ ul {
 .delivery h3{
 	color:#909191;
 	text-transform:uppercase;
-	font:300 35px/35px 'Lato';
+	font:300 35px/35px 'Lato', sans-serif;;
 }
 .delivery h4{
 	color:#909191;
 	text-transform:uppercase;
-	font:800 30px/30px 'Lato';
+	font:800 30px/30px 'Lato', sans-serif;;
 }
 .twitter{
 	margin-top:4em;
 	padding-right: 4%;
 }
 .twitter h3{
-	font:800 20px/20px 'Lato';
+	font:800 20px/20px 'Lato', sans-serif;;
 	color:#4B1C52;
 	margin-bottom: 1em;
 }
@@ -609,7 +600,7 @@ i.twt{
 }
 ul.twt1 li.twt1_desc{
 	overflow: hidden;
-	font:600 14px/14px 'Lato';
+	font:600 14px/14px 'Lato', sans-serif;;
 	font-style:italic;
 	line-height:1.5em;
 	color:#909191;
@@ -618,14 +609,14 @@ ul.twt1 li.twt1_desc{
 	margin-top:4em;
 }
 .clients h3{
-	font:600 20px/20px 'Lato';
+	font:600 20px/20px 'Lato', sans-serif;;
 	color:#4B1C52;
 	text-transform:uppercase;
 	margin-bottom:1.5em;
 }
 .clients h4{
 	background:#f6f3f3;
-	font:500 13px/13px 'Lato';
+	font:500 13px/13px 'Lato', sans-serif;
 	font-style:italic;
 	color:#000;
 	line-height:1.8em;
@@ -648,7 +639,7 @@ ul.user li.user_desc{
 	float:left;
 }
 ul.user li.user_desc p{
-	font:700 13px/13px 'Lato';
+	font:700 13px/13px 'Lato', sans-serif;
 	margin-top:15px;
 }
 ul.user li.user_desc p a{
@@ -775,7 +766,7 @@ ul.user li.user_desc p a{
 	padding:1em 1em 0;
 }
 .grid_2 p{
-	font: 600 15px/15px 'Lato';
+	font: 600 15px/15px 'Lato', sans-serif;
 	color: #797979;
 	line-height: 1.2em;
 	border-bottom: 1px solid #ECECEC;
@@ -799,7 +790,7 @@ ul.grid_2-bottom li.grid_2-left{
 }
 ul.grid_2-bottom li.grid_2-left p{
 	border-bottom: 0;
-	font: 800 19px/19px 'Lato';
+	font: 800 19px/19px 'Lato', sans-serif;
 	color: #000;
 	margin: 3px 0 0 0;
 	padding-bottom: 0;
@@ -808,11 +799,11 @@ ul.grid_2-bottom li.grid_2-right{
 	float:right;
 }
 ul.grid_2-bottom li.grid_2-left p small {
-	font:700 10px/10px 'Lato';
+	font:700 10px/10px 'Lato', sans-serif;
 	vertical-align: text-top;
 }
 .btn.btn-primary {
-	font:700 13px/13px 'Lato';
+	font:700 13px/13px 'Lato', sans-serif;
 	font-style: normal;
 	text-shadow: none;
 	text-transform:uppercase;
@@ -920,7 +911,7 @@ ul.grid_2-bottom li.grid_2-left p small {
 }
 h4.head{
 	color: #000;
-	font: 700 25px/25px 'Lato';
+	font: 700 25px/25px 'Lato', sans-serif;
 	text-transform: uppercase;
 	padding: 0 0 10px 15px;
 }
@@ -948,7 +939,7 @@ span.m_2{
 }
 .f_grid1 p{
 	color: #616161;
-	font: 700 14px/14px 'Lato';
+	font: 700 14px/14px 'Lato', sans-serif;
 	line-height: 1.5em;
 	margin-top: 2em;
 }
@@ -979,7 +970,7 @@ ul.social li a:hover p{
 }
 p.m_3{
 	overflow: hidden;
-	font: 700 13px/13px 'Lato';
+	font: 700 13px/13px 'Lato', sans-serif;
 	text-transform:uppercase;
 	padding: 3px 0 0 0;
 	margin:0;
@@ -1016,7 +1007,7 @@ ul.list li{
 }
 ul.list li p{
 	margin:0;
-	font: 700 15px/15px 'Lato';
+	font: 700 15px/15px 'Lato', sans-serif;
 }
 ul.list1{
 	overflow:hidden;
@@ -1026,7 +1017,7 @@ ul.list1{
 }
 ul.list1 li p{
 	margin:0;
-	font: 700 15px/15px 'Lato';
+	font: 700 15px/15px 'Lato', sans-serif;
 	color:#888;
 	line-height:1.5em;
 }
@@ -1037,7 +1028,7 @@ ul.list1 li p{
 .cssmenu {
 	float: left;
 	color: #cfcfcf;
-	font:500 14px/14px 'Lato';
+	font:500 14px/14px 'Lato', sans-serif;
 }
 .cssmenu ul li {
 	display: inline-block;
@@ -1057,7 +1048,7 @@ ul.list1 li p{
 }
 .copy p {
 	color: #999;
-	font:300 14px/1px 'Lato';
+	font:300 14px/1px 'Lato', sans-serif;
 	text-transform:uppercase;
 }
 .copy p a {
@@ -1087,7 +1078,7 @@ ul.list1 li p{
 }
 p.availability {
 	color:#3e3f3f;
-	font:500 15px/15px 'Lato';
+	font:500 15px/15px 'Lato', sans-serif;
 	font-weight: normal;
 }
 .price_single {
@@ -1098,23 +1089,23 @@ span.reducedfrom {
 	text-decoration: line-through;
 	margin-right: 3%;
 	color:#3e3f3f;
-	font:500 25px/25px 'Lato';
+	font:500 25px/25px 'Lato', sans-serif;
 }
 span.actual {
 	color:#4B1C52;
-	font:500 25px/25px 'Lato';
+	font:500 25px/25px 'Lato', sans-serif;
 	margin-right: 5%;
 }
 .price_single a {
 	color:#3e3f3f;
-	font:500 13px/13px 'Lato';
+	font:500 13px/13px 'Lato', sans-serif;
 }
 .price_single a:hover{
 	color:#4B1C52;
 }
 h2.quick {
 	color:#3e3f3f;
-	font:600 16px/16px 'Lato';
+	font:600 16px/16px 'Lato', sans-serif;
 	text-transform: uppercase;
 }
 p.quick_desc {
@@ -1134,7 +1125,7 @@ p.quick_desc {
 }
 .wish-list li a {
 	color:#4B1C52;
-	font:500 14px/14px 'Lato';
+	font:500 14px/14px 'Lato', sans-serif;
 	padding-left: 22px;
 	text-decoration: underline;
 }
@@ -1155,7 +1146,7 @@ ul.size {
 }
 ul.size h3 {
 	color:#3e3f3f;
-	font:600 16px/16px 'Lato';
+	font:600 16px/16px 'Lato', sans-serif;
 	text-transform: uppercase;
 	margin-bottom: 15px;
 }
@@ -1165,7 +1156,7 @@ ul.size li {
 }
 ul.size li a {
 	color: #555;
-	font:500 14px/14px 'Lato';
+	font:500 14px/14px 'Lato', sans-serif;
 	background:#DFDFDF;
 	padding: 5px 10px;
 }
@@ -1183,7 +1174,7 @@ ul.product-qty {
 }
 .product-qty span {
 	color:#3e3f3f;
-	font:600 16px/16px 'Lato';
+	font:600 16px/16px 'Lato', sans-serif;
 	padding-bottom: 0.5em;
 	display: block;
 	text-transform: uppercase;
@@ -1339,7 +1330,7 @@ h3.single_head{
 }
 .span1 h5{
 	color:#000;
-	font:400 20px/20px 'Lato';
+	font:400 20px/20px 'Lato', sans-serif;
 }
 .span1 p{
 	color: #999;
