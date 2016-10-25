@@ -552,8 +552,7 @@ ul {
 	text-indent: 1.2em;
 }
 .menu ul li a:hover{
-	background:#4B1C52;
-	color:#fff;
+	font-weight:900!important;
 }
 .menu > li > a:hover, .menu > li > a.active {
 	background:#fff;
@@ -2020,8 +2019,9 @@ a.collapsible{font-weight: bold;font-size:21px;background: #4B1C52;color:#FFF;di
 .collapsible .fa{float:right;padding-top:5px;}
 .btn-info{background:#4B1C52;color:#FFF;text-shadow:none;padding:8px 24px;border:1px solid #000;border-radius:5px;}
 .btn-info:hover{background:#FFF;color:#4B1C52;border:1px solid #000;}
-.subitem1 a{background: #e5e5e5 none repeat scroll 0 0;
+.subitem1 a{background: #f9f9f9 none repeat scroll 0 0;
     font-size: 14px !important;
     font-weight: normal !important;
     line-height: 3 !important;
     padding-left: 21px;}
+a:focus{outline:none!important;}

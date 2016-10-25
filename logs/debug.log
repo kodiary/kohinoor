@@ -14261,3 +14261,483 @@ Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
 
 
 
+2016-10-25 19:32:47 Notice: Notice (8): Undefined variable: days in [E:\wamp\www\kohinoor\webroot\Common\advance_search.php, line 77]
+Request URL: /kohinoor/pages/view/tibet-tour
+Referer URL: http://localhost/kohinoor/pages/view/introduction-of-nepal
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\webroot\Common\advance_search.php, line 77
+include - ROOT\webroot\Common\sidebar.php, line 52
+include - APP/Template\Layout\default.ctp, line 83
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-10-25 19:32:47 Notice: Notice (8): Undefined variable: days in [E:\wamp\www\kohinoor\webroot\Common\advance_search.php, line 78]
+Request URL: /kohinoor/pages/view/tibet-tour
+Referer URL: http://localhost/kohinoor/pages/view/introduction-of-nepal
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\webroot\Common\advance_search.php, line 78
+include - ROOT\webroot\Common\sidebar.php, line 52
+include - APP/Template\Layout\default.ctp, line 83
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-10-25 19:32:47 Notice: Notice (8): Undefined variable: days in [E:\wamp\www\kohinoor\webroot\Common\advance_search.php, line 79]
+Request URL: /kohinoor/pages/view/tibet-tour
+Referer URL: http://localhost/kohinoor/pages/view/introduction-of-nepal
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\webroot\Common\advance_search.php, line 79
+include - ROOT\webroot\Common\sidebar.php, line 52
+include - APP/Template\Layout\default.ctp, line 83
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-10-25 19:32:47 Notice: Notice (8): Undefined variable: days in [E:\wamp\www\kohinoor\webroot\Common\advance_search.php, line 80]
+Request URL: /kohinoor/pages/view/tibet-tour
+Referer URL: http://localhost/kohinoor/pages/view/introduction-of-nepal
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\webroot\Common\advance_search.php, line 80
+include - ROOT\webroot\Common\sidebar.php, line 52
+include - APP/Template\Layout\default.ctp, line 83
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-10-25 19:33:14 Notice: Notice (8): Undefined variable: days in [E:\wamp\www\kohinoor\webroot\Common\advance_search.php, line 77]
+Request URL: /kohinoor/pages/view/tibet-tour
+Referer URL: http://localhost/kohinoor/pages/view/introduction-of-nepal
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\webroot\Common\advance_search.php, line 77
+include - ROOT\webroot\Common\sidebar.php, line 52
+include - APP/Template\Layout\default.ctp, line 83
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-10-25 19:33:14 Notice: Notice (8): Undefined variable: days in [E:\wamp\www\kohinoor\webroot\Common\advance_search.php, line 78]
+Request URL: /kohinoor/pages/view/tibet-tour
+Referer URL: http://localhost/kohinoor/pages/view/introduction-of-nepal
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\webroot\Common\advance_search.php, line 78
+include - ROOT\webroot\Common\sidebar.php, line 52
+include - APP/Template\Layout\default.ctp, line 83
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-10-25 19:33:14 Notice: Notice (8): Undefined variable: days in [E:\wamp\www\kohinoor\webroot\Common\advance_search.php, line 79]
+Request URL: /kohinoor/pages/view/tibet-tour
+Referer URL: http://localhost/kohinoor/pages/view/introduction-of-nepal
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\webroot\Common\advance_search.php, line 79
+include - ROOT\webroot\Common\sidebar.php, line 52
+include - APP/Template\Layout\default.ctp, line 83
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-10-25 19:33:14 Notice: Notice (8): Undefined variable: days in [E:\wamp\www\kohinoor\webroot\Common\advance_search.php, line 80]
+Request URL: /kohinoor/pages/view/tibet-tour
+Referer URL: http://localhost/kohinoor/pages/view/introduction-of-nepal
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\webroot\Common\advance_search.php, line 80
+include - ROOT\webroot\Common\sidebar.php, line 52
+include - APP/Template\Layout\default.ctp, line 83
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-10-25 19:34:37 Notice: Notice (8): Undefined variable: days in [E:\wamp\www\kohinoor\webroot\Common\advance_search.php, line 77]
+Request URL: /kohinoor/pages/view/tibet-tour
+Referer URL: http://localhost/kohinoor/pages/view/introduction-of-nepal
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\webroot\Common\advance_search.php, line 77
+include - ROOT\webroot\Common\sidebar.php, line 52
+include - APP/Template\Layout\default.ctp, line 83
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-10-25 19:34:37 Notice: Notice (8): Undefined variable: days in [E:\wamp\www\kohinoor\webroot\Common\advance_search.php, line 78]
+Request URL: /kohinoor/pages/view/tibet-tour
+Referer URL: http://localhost/kohinoor/pages/view/introduction-of-nepal
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\webroot\Common\advance_search.php, line 78
+include - ROOT\webroot\Common\sidebar.php, line 52
+include - APP/Template\Layout\default.ctp, line 83
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-10-25 19:34:37 Notice: Notice (8): Undefined variable: days in [E:\wamp\www\kohinoor\webroot\Common\advance_search.php, line 79]
+Request URL: /kohinoor/pages/view/tibet-tour
+Referer URL: http://localhost/kohinoor/pages/view/introduction-of-nepal
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\webroot\Common\advance_search.php, line 79
+include - ROOT\webroot\Common\sidebar.php, line 52
+include - APP/Template\Layout\default.ctp, line 83
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-10-25 19:34:37 Notice: Notice (8): Undefined variable: days in [E:\wamp\www\kohinoor\webroot\Common\advance_search.php, line 80]
+Request URL: /kohinoor/pages/view/tibet-tour
+Referer URL: http://localhost/kohinoor/pages/view/introduction-of-nepal
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\webroot\Common\advance_search.php, line 80
+include - ROOT\webroot\Common\sidebar.php, line 52
+include - APP/Template\Layout\default.ctp, line 83
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-10-25 19:35:03 Notice: Notice (8): Undefined variable: days in [E:\wamp\www\kohinoor\webroot\Common\advance_search.php, line 77]
+Request URL: /kohinoor/pages/view/tibet-tour
+Referer URL: http://localhost/kohinoor/pages/view/introduction-of-nepal
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\webroot\Common\advance_search.php, line 77
+include - ROOT\webroot\Common\sidebar.php, line 52
+include - APP/Template\Layout\default.ctp, line 83
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-10-25 19:35:03 Notice: Notice (8): Undefined variable: days in [E:\wamp\www\kohinoor\webroot\Common\advance_search.php, line 78]
+Request URL: /kohinoor/pages/view/tibet-tour
+Referer URL: http://localhost/kohinoor/pages/view/introduction-of-nepal
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\webroot\Common\advance_search.php, line 78
+include - ROOT\webroot\Common\sidebar.php, line 52
+include - APP/Template\Layout\default.ctp, line 83
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-10-25 19:35:03 Notice: Notice (8): Undefined variable: days in [E:\wamp\www\kohinoor\webroot\Common\advance_search.php, line 79]
+Request URL: /kohinoor/pages/view/tibet-tour
+Referer URL: http://localhost/kohinoor/pages/view/introduction-of-nepal
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\webroot\Common\advance_search.php, line 79
+include - ROOT\webroot\Common\sidebar.php, line 52
+include - APP/Template\Layout\default.ctp, line 83
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-10-25 19:35:03 Notice: Notice (8): Undefined variable: days in [E:\wamp\www\kohinoor\webroot\Common\advance_search.php, line 80]
+Request URL: /kohinoor/pages/view/tibet-tour
+Referer URL: http://localhost/kohinoor/pages/view/introduction-of-nepal
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\webroot\Common\advance_search.php, line 80
+include - ROOT\webroot\Common\sidebar.php, line 52
+include - APP/Template\Layout\default.ctp, line 83
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-10-25 19:35:23 Notice: Notice (8): Undefined variable: days in [E:\wamp\www\kohinoor\webroot\Common\advance_search.php, line 77]
+Request URL: /kohinoor/pages/view/tibet-tour
+Referer URL: http://localhost/kohinoor/pages/view/introduction-of-nepal
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\webroot\Common\advance_search.php, line 77
+include - ROOT\webroot\Common\sidebar.php, line 52
+include - APP/Template\Layout\default.ctp, line 83
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-10-25 19:35:23 Notice: Notice (8): Undefined variable: days in [E:\wamp\www\kohinoor\webroot\Common\advance_search.php, line 78]
+Request URL: /kohinoor/pages/view/tibet-tour
+Referer URL: http://localhost/kohinoor/pages/view/introduction-of-nepal
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\webroot\Common\advance_search.php, line 78
+include - ROOT\webroot\Common\sidebar.php, line 52
+include - APP/Template\Layout\default.ctp, line 83
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-10-25 19:35:23 Notice: Notice (8): Undefined variable: days in [E:\wamp\www\kohinoor\webroot\Common\advance_search.php, line 79]
+Request URL: /kohinoor/pages/view/tibet-tour
+Referer URL: http://localhost/kohinoor/pages/view/introduction-of-nepal
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\webroot\Common\advance_search.php, line 79
+include - ROOT\webroot\Common\sidebar.php, line 52
+include - APP/Template\Layout\default.ctp, line 83
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-10-25 19:35:23 Notice: Notice (8): Undefined variable: days in [E:\wamp\www\kohinoor\webroot\Common\advance_search.php, line 80]
+Request URL: /kohinoor/pages/view/tibet-tour
+Referer URL: http://localhost/kohinoor/pages/view/introduction-of-nepal
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\webroot\Common\advance_search.php, line 80
+include - ROOT\webroot\Common\sidebar.php, line 52
+include - APP/Template\Layout\default.ctp, line 83
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-10-25 19:35:46 Notice: Notice (8): Undefined variable: days in [E:\wamp\www\kohinoor\webroot\Common\advance_search.php, line 77]
+Request URL: /kohinoor/pages/view/tibet-tour
+Referer URL: http://localhost/kohinoor/pages/view/tibet-tour
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\webroot\Common\advance_search.php, line 77
+include - ROOT\webroot\Common\sidebar.php, line 52
+include - APP/Template\Layout\default.ctp, line 83
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-10-25 19:35:46 Notice: Notice (8): Undefined variable: days in [E:\wamp\www\kohinoor\webroot\Common\advance_search.php, line 78]
+Request URL: /kohinoor/pages/view/tibet-tour
+Referer URL: http://localhost/kohinoor/pages/view/tibet-tour
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\webroot\Common\advance_search.php, line 78
+include - ROOT\webroot\Common\sidebar.php, line 52
+include - APP/Template\Layout\default.ctp, line 83
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-10-25 19:35:46 Notice: Notice (8): Undefined variable: days in [E:\wamp\www\kohinoor\webroot\Common\advance_search.php, line 79]
+Request URL: /kohinoor/pages/view/tibet-tour
+Referer URL: http://localhost/kohinoor/pages/view/tibet-tour
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\webroot\Common\advance_search.php, line 79
+include - ROOT\webroot\Common\sidebar.php, line 52
+include - APP/Template\Layout\default.ctp, line 83
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-10-25 19:35:46 Notice: Notice (8): Undefined variable: days in [E:\wamp\www\kohinoor\webroot\Common\advance_search.php, line 80]
+Request URL: /kohinoor/pages/view/tibet-tour
+Referer URL: http://localhost/kohinoor/pages/view/tibet-tour
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\webroot\Common\advance_search.php, line 80
+include - ROOT\webroot\Common\sidebar.php, line 52
+include - APP/Template\Layout\default.ctp, line 83
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
