@@ -13,9 +13,10 @@ use Cake\ORM\TableRegistry;
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <!-- Custom Theme files -->
 <link href="<?php echo $this->request->webroot;?>new_layout/css/style.css" rel='stylesheet' type='text/css' />
+<link href="<?php echo $this->request->webroot;?>fa/css/font-awesome.css" rel='stylesheet' type='text/css' />
 <!-- Custom Theme files -->
 <!--webfont-->
-<link href='http://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
+<!--<link href='http://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700,800,900' rel='stylesheet' type='text/css'>-->
 <script type="text/javascript" src="<?php echo $this->request->webroot;?>new_layout/js/jquery-1.11.1.min.js"></script>
 <script src="<?php echo $this->request->webroot;?>new_layout/js/responsiveslides.min.js"></script>
 <script>

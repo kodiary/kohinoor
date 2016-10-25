@@ -4,13 +4,13 @@
 			<div class="logo">
 				<a href="<?php echo $this->request->webroot;?>"><img src="<?php echo $this->request->webroot;?>new_layout/images/logo.png" alt=""/></a>
 			</div>
-			<ul class="shopping_grid">
+			<!--<ul class="shopping_grid">
                 <li></li>
-			      <!--a href="#"><li>Join</li></a>
+			      a href="#"><li>Join</li></a>
 			      <a href="login.html"><li>Sign In</li></a>
 			      <a href="#"><li><span class="m_1">Shopping Bag</span>&nbsp;&nbsp;(0) &nbsp;<img src="<?php echo $this->request->webroot;?>new_layout/images/bag.png" alt=""/></li></a>
-			      <div class="clearfix"> </div-->
-			</ul>
+			      <div class="clearfix"> </div
+			</ul>-->
 		    <div class="clearfix"> </div>
 		</div>
 	</div>

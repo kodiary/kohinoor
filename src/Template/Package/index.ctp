@@ -52,7 +52,7 @@
             {
                 ?>
                 <p>&nbsp;</p>
-                <a class="collapsible" data-toggle="collapse" href="#itinerary" aria-expanded="false" aria-controls="itinerary">Itinerary <span class="fa fa-angle-left"></span></a>
+                <a class="collapsible" data-toggle="collapse" href="#itinerary" aria-expanded="false" aria-controls="itinerary">Itinerary <span class="fa fa-angle-down"></span></a>
                 <div class="common" id="itinerary">
                 
                 <table class="table table-bordered">
@@ -72,7 +72,7 @@
             {
                 ?>
                 <hr />
-                <a class="collapsible" data-toggle="collapse" href="#cost_detail" aria-expanded="false" aria-controls="cost_detail">Cost Detail <span class="fa fa-angle-left"></span></a>
+                <a class="collapsible" onclick="$('#cost_detail').toggle('slow');" href="javascript:void(0)">Cost Detail <span class="fa fa-angle-down"></span></a>
                 <div class="common collapse" id="cost_detail">
                 
                 <?php echo $pack->cost_detail;?>
@@ -83,7 +83,7 @@
             {
                 ?>
                 <hr />
-                <a class="collapsible" data-toggle="collapse" href="#route" aria-expanded="false" aria-controls="route">Route <span class="fa fa-angle-left"></span></a>
+                <a class="collapsible" href="javascript:void(0);" onclick="$('#route').toggle('slow');">Route <span class="fa fa-angle-down"></span></a>
                 <div class="common collapse" id="route">
                 <?php
                 if($pack->route_map){

@@ -8,8 +8,17 @@ h4, h5, h6,
 h1, h2, h3 {margin-top: 0;}
 ul, ol {margin: 0;}
 p {margin: 0;}
+@font-face {
+    font-family: Lato;
+    src: url(Lato-Light.ttf);
+}
+@font-face {
+    font-family: Latobold;
+    src: url(Lato-Black.ttf);
+}
+
 html, body{
-   font-family: 'Lato', sans-serif;
+   font-family: 'Lato';
    font-size: 100%;
    background:#fff; 
 }
@@ -21,11 +30,13 @@ body a{
 	-moz-transition: 0.5s all;
 }
 .header_top{
-	background:#f7f7f7;
+	background:url('../images/header.png') repeat-x;
+    
 }
 .logo{
 	float:left;
-	margin-top:22px;
+	margin:15px 0 15px 0;
+    width: 281px;
 }
 ul.shopping_grid{
 	padding:0;
@@ -46,13 +57,13 @@ ul.shopping_grid li img{
 	margin-top: -4px;
 }
 ul.shopping_grid a li:hover {
-	color:#df1f26;
+	color:#4B1C52;
 }
 ul.shopping_grid li:hover span.m_1{
 	color:#000;
 }
 span.m_1{
-	color:#df1f26;
+	color:#4B1C52;
 }
 /* start h_menu */
 .header_bottom_right{
@@ -65,7 +76,7 @@ span.m_1{
 }
 .toggleMenu {
     display: none;
-	background:#df1f26;
+	background:#4B1C52;
 	width: 100%;
 	color: #FFF;
 	font-size: 1.5em;
@@ -92,7 +103,7 @@ span.m_1{
 	display: block;
 	margin:0px 15px;
 	color:#fff;
-	font: 400 12px/12px 'Lato', sans-serif;
+	font: 400 12px/12px Latobold;
 	text-transform:uppercase;
 	-webkit-transition: all 0.3s ease-out;
 	-moz-transition: all 0.3s ease-out;
@@ -106,7 +117,7 @@ span.m_1{
 	margin:0
 }
 ul.nav li.active a, .nav li a:hover {
-	color:#df1f26;
+	color:#4B1C52;
 }
 .nav li a:hover {
 }
@@ -467,24 +478,24 @@ ul.callbacks_tabs.callbacks1_tabs {
 	font: 800 13px/13px 'Lato', sans-serif;
 	margin: 8px 10px 0 0;
 	text-transform:uppercase;
-	color:#df1f26;
+	color:#4B1C52;
 }
 .stay_right {
-	float: left;
-	width:70%;
+    float: right;
+    width: 69%;
 }
 .search input[type="text"] {
-	padding:8.5px 10px;
-	outline: none;
-	color: #fff;
-	background:#c9c9c9;
-	border: none;
-	width:72%;
-	line-height: 1.5em;
-	font: 500 13px/13px 'Lato', sans-serif;
+	background: #c9c9c9 none repeat scroll 0 0;
+    border: medium none;
+    color: #fff;
+    font: 500 13px/13px "Lato",sans-serif;
+    height: 31px;
+    outline: medium none;
+    padding: 8.5px 10px;
+    width: 87%;
 }
 .search input[type="submit"] {
-	background: url('../images/search.png') no-repeat 6px 5px #df1f26;
+	background: url('../images/search.png') no-repeat 6px 5px #4B1C52;
 	padding: 4px 17px;
 	border: none;
 	cursor: pointer;
@@ -497,7 +508,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 	padding: 1em 0 5em;
 }
 h3.menu_head {
-	background:#df1f26;
+	background:#4B1C52;
 	padding:1em 0 1em 2em;
 	color: #fff;
 	text-transform: uppercase;
@@ -548,12 +559,12 @@ ul {
 	text-indent: 1.2em;
 }
 .menu ul li a:hover{
-	background:#df1f26;
+	background:#4B1C52;
 	color:#fff;
 }
 .menu > li > a:hover, .menu > li > a.active {
 	background:#fff;
-	border-right: 5px solid #df1f26;
+	border-right: 5px solid #4B1C52;
 }
 .menu ul.kid-menu li a{
 	border-bottom: none;
@@ -581,7 +592,7 @@ ul {
 }
 .twitter h3{
 	font:800 20px/20px 'Lato', sans-serif;
-	color:#df1f26;
+	color:#4B1C52;
 	margin-bottom: 1em;
 }
 ul.twt1{
@@ -608,7 +619,7 @@ ul.twt1 li.twt1_desc{
 }
 .clients h3{
 	font:600 20px/20px 'Lato', sans-serif;
-	color:#df1f26;
+	color:#4B1C52;
 	text-transform:uppercase;
 	margin-bottom:1.5em;
 }
@@ -788,7 +799,7 @@ ul.grid_2-bottom li.grid_2-left{
 }
 ul.grid_2-bottom li.grid_2-left p{
 	border-bottom: 0;
-	font: 800 20px/20px 'Lato', sans-serif;
+	font: 800 19px/19px 'Lato', sans-serif;
 	color: #000;
 	margin: 3px 0 0 0;
 	padding-bottom: 0;
@@ -797,7 +808,7 @@ ul.grid_2-bottom li.grid_2-right{
 	float:right;
 }
 ul.grid_2-bottom li.grid_2-left p small {
-	font:700 15px/15px 'Lato', sans-serif;
+	font:700 10px/10px 'Lato', sans-serif;
 	vertical-align: text-top;
 }
 .btn.btn-primary {
@@ -914,7 +925,7 @@ h4.head{
 	padding: 0 0 10px 15px;
 }
 span.m_2{
-	color:#df1f26;
+	color:#4B1C52;
 }
 .footer_bg{
 	background: url(../images/footer_bg.jpg) no-repeat center top;
@@ -964,7 +975,7 @@ ul.social li a:hover{
 	text-decoration:none;
 }
 ul.social li a:hover p{
-	color: #df1f26;
+	color: #4B1C52;
 }
 p.m_3{
 	overflow: hidden;
@@ -1038,7 +1049,7 @@ ul.list1 li p{
 }
 .cssmenu ul li a:hover{
 	text-decoration:none;
-	color: #df1f26;
+	color: #4B1C52;
 }
 .copy {
 	float: right;
@@ -1050,7 +1061,7 @@ ul.list1 li p{
 	text-transform:uppercase;
 }
 .copy p a {
-	color: #df1f26;
+	color: #4B1C52;
 }
 .copy p a:hover{
 	color:#dee9f1;
@@ -1090,7 +1101,7 @@ span.reducedfrom {
 	font:500 25px/25px 'Lato', sans-serif;
 }
 span.actual {
-	color:#df1f26;
+	color:#4B1C52;
 	font:500 25px/25px 'Lato', sans-serif;
 	margin-right: 5%;
 }
@@ -1099,7 +1110,7 @@ span.actual {
 	font:500 13px/13px 'Lato', sans-serif;
 }
 .price_single a:hover{
-	color:#df1f26;
+	color:#4B1C52;
 }
 h2.quick {
 	color:#3e3f3f;
@@ -1122,7 +1133,7 @@ p.quick_desc {
 	margin-right: 45px;
 }
 .wish-list li a {
-	color:#df1f26;
+	color:#4B1C52;
 	font:500 14px/14px 'Lato', sans-serif;
 	padding-left: 22px;
 	text-decoration: underline;
@@ -1159,7 +1170,7 @@ ul.size li a {
 	padding: 5px 10px;
 }
 ul.size li a:hover{
-	background:#df1f26;
+	background:#4B1C52;
 	color:#fff;
 }
 .quantity_box {
@@ -1411,7 +1422,7 @@ p.comment-form-author {
 .contact-form input[type="submit"] {
 	display: inline-block;
 	padding: 13px 25px;
-	background:#df1f26;
+	background:#4B1C52;
 	color: #FFF;
 	font-size: 1em;
 	line-height: 18px;
@@ -1492,14 +1503,14 @@ i.mail{
 }
 .page-not-found a {
 	color: #fff;
-	background:#df1f26;
+	background:#4B1C52;
 	text-decoration: none;
 	padding: 15px 40px;
 	font: 300 16px/16px Lato, sans-serif;
 }
 /*--register--*/
 .register-top-grid h3, .register-bottom-grid h3 {
-	color:#df1f26;
+	color:#4B1C52;
 	font-size: 1em;
 	padding-bottom: 5px;
 	margin: 0;
@@ -1595,7 +1606,7 @@ i.mail{
 	margin-top:1em;
 }
 .register-but form input[type="submit"] {
-	background:#df1f26;
+	background:#4B1C52;
 	color: #FFF;
 	font-size: 0.8em;
 	padding: 0.8em 2em;
@@ -1619,7 +1630,7 @@ div.register-bottom-grid {
 	padding: 0;
 }
 .login-left h3, .login-right h3 {
-	color:#df1f26;
+	color:#4B1C52;
 	font-size: 1em;
 	text-transform: uppercase;
 	font-weight: 600;
@@ -1633,7 +1644,7 @@ div.register-bottom-grid {
 	line-height: 1.8em;
 }
 .acount-btn {
-	background:#df1f26;
+	background:#4B1C52;
 	color: #FFF;
 	font-size: 0.8em;
 	padding: 0.7em 1.2em;
@@ -1670,7 +1681,7 @@ div.register-bottom-grid {
 	padding:10px;
 }
 .login-right input[type="submit"] {
-	background:#df1f26;
+	background:#4B1C52;
 	color: #FFF;
 	font-size: 0.8em;
 	padding: 0.7em 1.2em;
@@ -2011,3 +2022,6 @@ img{max-width:100%;}
     text-align: center;
     
 }
+.side_group a{padding: 5px;display: block;margin-bottom: 5px;font-weight: bold; background: #FFF}
+a.collapsible{font-weight: bold;font-size:21px;background: #4B1C52;color:#FFF;display:block;padding:5px 10px;}
+.collapsible .fa{float:right;padding-top:5px;}

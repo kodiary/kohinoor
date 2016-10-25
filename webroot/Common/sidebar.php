@@ -50,12 +50,15 @@ use Cake\ORM\TableRegistry;
 <div class="sidebar">
 <div class="menu_box">
  <?php include(APP.'../webroot/Common/advance_search.php');?>   
-  <h3 class="menu_head">Pages</h3>
-               <ul class="menu">
+  
                      
               <?php 
               if(!isset($pack_side) && !isset($tour_side))
               {
+                ?>
+                <h3 class="menu_head">Pages</h3>
+               <ul class="menu">
+                <?php
               $pgcats = TableRegistry::get('PageCategory')->find()->order(['id'=>'desc'])->all();
               foreach($pgcats as $pgc)
               {
