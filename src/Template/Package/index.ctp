@@ -16,11 +16,30 @@
         
         <div class="blog">
           <div class="clear"></div>
-          
-                    <img src="<?php echo $this->request->webroot;?>img/package/resized/<?php echo $pack->image;?>" />
-          
-          
-          
+          <div class="slider">
+	           <div class="callbacks_container">
+                <ul class="rslides slider">
+                    <li>
+            	       <img src="<?php echo $this->request->webroot;?>img/package/resized/<?php echo $pack->image;?>" />
+                        <div class="banner_bottom">
+                            <span>This is test.</span>
+                        </div>
+                    </li>
+                     <li>
+            	       <img src="<?php echo $this->request->webroot;?>img/package/resized/img718_2016_07_21_10_24_47.jpg" />
+                         <div class="banner_bottom">
+                            <span>This is test.</span>
+                        </div>
+                    </li>
+                     <li>
+            	       <img src="<?php echo $this->request->webroot;?>img/package/resized/img949_2016_07_21_10_13_12.jpg" />
+                         <div class="banner_bottom">
+                            <span>This is test.</span>
+                        </div>
+                    </li>
+                </ul>
+                </div>
+            </div>
             <?php echo $pack->description; ?>  
           
         </div>
@@ -33,7 +52,7 @@
             {
                 ?>
                 <p>&nbsp;</p>
-                <a class="collapsible" data-toggle="collapse" href="#itinerary" aria-expanded="false" aria-controls="itinerary">Itinerary <span class="fa fa-angle-left"></span></a>
+                <a class="collapsible" data-toggle="collapse" href="#itinerary" aria-expanded="false" aria-controls="itinerary">Itinerary <span class="fa fa-angle-down"></span></a>
                 <div class="common" id="itinerary">
                 
                 <table class="table table-bordered">
@@ -53,7 +72,7 @@
             {
                 ?>
                 <hr />
-                <a class="collapsible" data-toggle="collapse" href="#cost_detail" aria-expanded="false" aria-controls="cost_detail">Cost Detail <span class="fa fa-angle-left"></span></a>
+                <a class="collapsible" onclick="$('#cost_detail').toggle('slow');" href="javascript:void(0)">Cost Detail <span class="fa fa-angle-down"></span></a>
                 <div class="common collapse" id="cost_detail">
                 
                 <?php echo $pack->cost_detail;?>
@@ -64,7 +83,7 @@
             {
                 ?>
                 <hr />
-                <a class="collapsible" data-toggle="collapse" href="#route" aria-expanded="false" aria-controls="route">Route <span class="fa fa-angle-left"></span></a>
+                <a class="collapsible" href="javascript:void(0);" onclick="$('#route').toggle('slow');">Route <span class="fa fa-angle-down"></span></a>
                 <div class="common collapse" id="route">
                 <?php
                 if($pack->route_map){

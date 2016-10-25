@@ -2,7 +2,7 @@
 if(isset($key))
 $_GET['keyword'] = $key;
 else
-$_GET['keyword'] = ' ';
+$_GET['keyword'] = '';
 
 if(isset($_GET['country']) && $_GET['country'])
 {
@@ -19,7 +19,7 @@ if(isset($_GET['days']))
      <h3 class="menu_head">Advance search</h3>
      <form method="get" action="<?php echo $this->request->webroot;?>search" style="background: #FFF;padding:10px;">
          <div class="form-group">
-         <div class="col-md-12 padding-left-0 padding-right-0"><input type="text" placeholder="Keyword" class="form-control" name="keyword" value="<?php echo $_GET['keyword'];?>" style="height: 27px;padding: 0 5px" /></div>
+         <input style="height: 32px;" type="text" placeholder="Keyword" class="form-control" name="keyword" value="<?php echo $_GET['keyword'];?>" style="height: 27px;padding: 0 5px" />
          <div class="clearfix"></div>
          </div>   
          <div class="form-group">

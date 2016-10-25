@@ -50,12 +50,15 @@ use Cake\ORM\TableRegistry;
 <div class="sidebar">
 <div class="menu_box">
  <?php include(APP.'../webroot/Common/advance_search.php');?>   
-  <h3 class="menu_head">Pages</h3>
-               <ul class="menu">
+  
                      
               <?php 
               if(!isset($pack_side) && !isset($tour_side))
               {
+                ?>
+                <h3 class="menu_head">Pages</h3>
+               <ul class="menu">
+                <?php
               $pgcats = TableRegistry::get('PageCategory')->find()->order(['id'=>'desc'])->all();
               foreach($pgcats as $pgc)
               {
@@ -147,7 +150,7 @@ use Cake\ORM\TableRegistry;
               ?>
               <h3 class="menu_head">Enquire Package</h3>
               <div class="enquire">
-              <form method="post" class="enuire_package" >
+              <form method="post" class="enuire_package"  style="background: #FFF;padding:10px;">
                 <input type="hidden" name="p_id" value="<?php if(isset($pack))echo $pack->title;?>"/>
                 <input type="hidden" name="cap" value=""/>
                   <div class="form-group">

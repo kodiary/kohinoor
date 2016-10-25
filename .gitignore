@@ -1,0 +1,15 @@
+vendor/*
+config/app.php
+tmp/*
+logs/*
+*/sqlite
+*.sqlite
+*.sqlite
+*.sqlite
+*.log
+logs/debug.log
+*.log
+logs/debug.log
+logs/debug.log
+logs/error.log
+tmp/debug_kit.sqlite
