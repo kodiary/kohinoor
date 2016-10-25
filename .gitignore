@@ -7,6 +7,7 @@ logs/*
 *.sqlite
 *.sqlite
 *.log
+*.tff
 logs/debug.log
 *.log
 logs/debug.log

@@ -9,16 +9,16 @@ h1, h2, h3 {margin-top: 0;}
 ul, ol {margin: 0;}
 p {margin: 0;}
 @font-face {
-    font-family: Tola;
-    src: url(Tola-Light.ttf);
+    font-family: Lota;
+    src: url(Lota-Light.ttf);
 }
 @font-face {
-    font-family: Tolabold;
-    src: url(Tola-Black.ttf);
+    font-family: Lotabold;
+    src: url(Lota-Black.ttf);
 }
 
 html, body{
-   font-family: 'Tola';
+   font-family: 'Lota';
    font-size: 100%;
    background:#fff; 
 }
@@ -49,7 +49,7 @@ ul.shopping_grid li{
 	background: #eee;
 	padding: 25px 20px 0;
 	border-right: 1px solid #f7f7f7;
-	font: 600 15px/15px 'Tola', sans-serif;
+	font: 600 15px/15px 'Lota';
 	min-height: 70px;
 	color:#000;
 }
@@ -103,7 +103,7 @@ span.m_1{
 	display: block;
 	margin:0px 15px;
 	color:#fff;
-	font: 400 12px/12px Tolabold;
+	font: 400 12px/12px Lotabold;
 	text-transform:uppercase;
 	-webkit-transition: all 0.3s ease-out;
 	-moz-transition: all 0.3s ease-out;
@@ -349,11 +349,11 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 .banner_desc h1{
 	color:#fff;
-	font: 300 60px/60px 'Tola', sans-serif;
+	font: 300 60px/60px 'Lota';
 }
 .banner_desc h2{
 	color:#fff;
-	font: 300 20px/20px 'Tola', sans-serif;
+	font: 300 20px/20px 'Lota';
 	margin-top:1em;
 }
 /*-- responsive-mediaquries --*/
@@ -475,7 +475,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 .stay {
 	float: left;
-	font: 800 13px/13px 'Tola', sans-serif;
+	font: 800 13px/13px 'Lota';
 	margin: 8px 10px 0 0;
 	text-transform:uppercase;
 	color:#4B1C52;
@@ -488,7 +488,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 	background: #c9c9c9 none repeat scroll 0 0;
     border: medium none;
     color: #fff;
-    font: 500 13px/13px "Tola",sans-serif;
+    font: 500 13px/13px "Lota",sans-serif;
     height: 31px;
     outline: medium none;
     padding: 8.5px 10px;
@@ -551,7 +551,7 @@ ul {
 	width: 100%;
 	display: block;
 	position: relative;
-	font:800 15px/15px 'Tola', sans-serif;
+	font:800 15px/15px 'Lota';
 	color:#3e3f3f;
 	text-decoration:none;
 	border-bottom: 1px solid #ddd;
@@ -579,19 +579,19 @@ ul {
 .delivery h3{
 	color:#909191;
 	text-transform:uppercase;
-	font:300 35px/35px 'Tola', sans-serif;
+	font:300 35px/35px 'Lota';
 }
 .delivery h4{
 	color:#909191;
 	text-transform:uppercase;
-	font:800 30px/30px 'Tola', sans-serif;
+	font:800 30px/30px 'Lota';
 }
 .twitter{
 	margin-top:4em;
 	padding-right: 4%;
 }
 .twitter h3{
-	font:800 20px/20px 'Tola', sans-serif;
+	font:800 20px/20px 'Lota';
 	color:#4B1C52;
 	margin-bottom: 1em;
 }
@@ -609,7 +609,7 @@ i.twt{
 }
 ul.twt1 li.twt1_desc{
 	overflow: hidden;
-	font:600 14px/14px 'Tola', sans-serif;
+	font:600 14px/14px 'Lota';
 	font-style:italic;
 	line-height:1.5em;
 	color:#909191;
@@ -618,14 +618,14 @@ ul.twt1 li.twt1_desc{
 	margin-top:4em;
 }
 .clients h3{
-	font:600 20px/20px 'Tola', sans-serif;
+	font:600 20px/20px 'Lota';
 	color:#4B1C52;
 	text-transform:uppercase;
 	margin-bottom:1.5em;
 }
 .clients h4{
 	background:#f6f3f3;
-	font:500 13px/13px 'Tola', sans-serif;
+	font:500 13px/13px 'Lota';
 	font-style:italic;
 	color:#000;
 	line-height:1.8em;
@@ -648,7 +648,7 @@ ul.user li.user_desc{
 	float:left;
 }
 ul.user li.user_desc p{
-	font:700 13px/13px 'Tola', sans-serif;
+	font:700 13px/13px 'Lota';
 	margin-top:15px;
 }
 ul.user li.user_desc p a{
@@ -775,7 +775,7 @@ ul.user li.user_desc p a{
 	padding:1em 1em 0;
 }
 .grid_2 p{
-	font: 600 15px/15px 'Tola', sans-serif;
+	font: 600 15px/15px 'Lota';
 	color: #797979;
 	line-height: 1.2em;
 	border-bottom: 1px solid #ECECEC;
@@ -799,7 +799,7 @@ ul.grid_2-bottom li.grid_2-left{
 }
 ul.grid_2-bottom li.grid_2-left p{
 	border-bottom: 0;
-	font: 800 19px/19px 'Tola', sans-serif;
+	font: 800 19px/19px 'Lota';
 	color: #000;
 	margin: 3px 0 0 0;
 	padding-bottom: 0;
@@ -808,11 +808,11 @@ ul.grid_2-bottom li.grid_2-right{
 	float:right;
 }
 ul.grid_2-bottom li.grid_2-left p small {
-	font:700 10px/10px 'Tola', sans-serif;
+	font:700 10px/10px 'Lota';
 	vertical-align: text-top;
 }
 .btn.btn-primary {
-	font:700 13px/13px 'Tola', sans-serif;
+	font:700 13px/13px 'Lota';
 	font-style: normal;
 	text-shadow: none;
 	text-transform:uppercase;
@@ -920,7 +920,7 @@ ul.grid_2-bottom li.grid_2-left p small {
 }
 h4.head{
 	color: #000;
-	font: 700 25px/25px 'Tola', sans-serif;
+	font: 700 25px/25px 'Lota';
 	text-transform: uppercase;
 	padding: 0 0 10px 15px;
 }
@@ -942,13 +942,13 @@ span.m_2{
 }
 .f_grid1 h3, .f_grid3 h3{
 	color:#000;
-	font: 400 25px/25px Tola, sans-serif;
+	font: 400 25px/25px Lota, sans-serif;
 	text-transform:uppercase;
 	margin-bottom:1em;
 }
 .f_grid1 p{
 	color: #616161;
-	font: 700 14px/14px 'Tola', sans-serif;
+	font: 700 14px/14px 'Lota';
 	line-height: 1.5em;
 	margin-top: 2em;
 }
@@ -979,7 +979,7 @@ ul.social li a:hover p{
 }
 p.m_3{
 	overflow: hidden;
-	font: 700 13px/13px 'Tola', sans-serif;
+	font: 700 13px/13px 'Lota';
 	text-transform:uppercase;
 	padding: 3px 0 0 0;
 	margin:0;
@@ -1016,7 +1016,7 @@ ul.list li{
 }
 ul.list li p{
 	margin:0;
-	font: 700 15px/15px 'Tola', sans-serif;
+	font: 700 15px/15px 'Lota';
 }
 ul.list1{
 	overflow:hidden;
@@ -1026,7 +1026,7 @@ ul.list1{
 }
 ul.list1 li p{
 	margin:0;
-	font: 700 15px/15px 'Tola', sans-serif;
+	font: 700 15px/15px 'Lota';
 	color:#888;
 	line-height:1.5em;
 }
@@ -1037,7 +1037,7 @@ ul.list1 li p{
 .cssmenu {
 	float: left;
 	color: #cfcfcf;
-	font:500 14px/14px 'Tola', sans-serif;
+	font:500 14px/14px 'Lota';
 }
 .cssmenu ul li {
 	display: inline-block;
@@ -1057,7 +1057,7 @@ ul.list1 li p{
 }
 .copy p {
 	color: #999;
-	font:300 14px/1px 'Tola', sans-serif;
+	font:300 14px/1px 'Lota';
 	text-transform:uppercase;
 }
 .copy p a {
@@ -1082,12 +1082,12 @@ ul.list1 li p{
 .span_3_of_2 h1 {
 	color: #5E5D5D;
 	text-transform: uppercase;
-	font: 400 25px/25px Tola, sans-serif;
+	font: 400 25px/25px Lota, sans-serif;
 	margin-bottom: 1em;
 }
 p.availability {
 	color:#3e3f3f;
-	font:500 15px/15px 'Tola', sans-serif;
+	font:500 15px/15px 'Lota';
 	font-weight: normal;
 }
 .price_single {
@@ -1098,28 +1098,28 @@ span.reducedfrom {
 	text-decoration: line-through;
 	margin-right: 3%;
 	color:#3e3f3f;
-	font:500 25px/25px 'Tola', sans-serif;
+	font:500 25px/25px 'Lota';
 }
 span.actual {
 	color:#4B1C52;
-	font:500 25px/25px 'Tola', sans-serif;
+	font:500 25px/25px 'Lota';
 	margin-right: 5%;
 }
 .price_single a {
 	color:#3e3f3f;
-	font:500 13px/13px 'Tola', sans-serif;
+	font:500 13px/13px 'Lota';
 }
 .price_single a:hover{
 	color:#4B1C52;
 }
 h2.quick {
 	color:#3e3f3f;
-	font:600 16px/16px 'Tola', sans-serif;
+	font:600 16px/16px 'Lota';
 	text-transform: uppercase;
 }
 p.quick_desc {
 	color:#3e3f3f;
-	font: 300 16px/25px Tola, sans-serif;
+	font: 300 16px/25px Lota, sans-serif;
 	line-height: 1.8em;
 	margin-bottom: 2em;
 }
@@ -1134,7 +1134,7 @@ p.quick_desc {
 }
 .wish-list li a {
 	color:#4B1C52;
-	font:500 14px/14px 'Tola', sans-serif;
+	font:500 14px/14px 'Lota';
 	padding-left: 22px;
 	text-decoration: underline;
 }
@@ -1155,7 +1155,7 @@ ul.size {
 }
 ul.size h3 {
 	color:#3e3f3f;
-	font:600 16px/16px 'Tola', sans-serif;
+	font:600 16px/16px 'Lota';
 	text-transform: uppercase;
 	margin-bottom: 15px;
 }
@@ -1165,7 +1165,7 @@ ul.size li {
 }
 ul.size li a {
 	color: #555;
-	font:500 14px/14px 'Tola', sans-serif;
+	font:500 14px/14px 'Lota';
 	background:#DFDFDF;
 	padding: 5px 10px;
 }
@@ -1183,7 +1183,7 @@ ul.product-qty {
 }
 .product-qty span {
 	color:#3e3f3f;
-	font:600 16px/16px 'Tola', sans-serif;
+	font:600 16px/16px 'Lota';
 	padding-bottom: 0.5em;
 	display: block;
 	text-transform: uppercase;
@@ -1210,7 +1210,7 @@ a.btn.bt1.btn-primary.btn-normal.btn-inline {
 }
 ul.tab_list li a {
 	color: #777;
-	font: 300 16px/25px Tola, sans-serif;
+	font: 300 16px/25px Lota, sans-serif;
 	line-height: 1.8em;
 	vertical-align: top;
 	text-decoration: none;
@@ -1317,7 +1317,7 @@ h2.resp-accordion {
 h3.single_head{
 	color: #5E5D5D;
 	text-transform: uppercase;
-	font: 400 25px/25px Tola, sans-serif;
+	font: 400 25px/25px Lota, sans-serif;
 	margin-bottom: 1em;
 }
 /*--about--*/
@@ -1327,23 +1327,23 @@ h3.single_head{
 .span1 h3, h3.m_3{
 	text-align: center;
 	text-transform: uppercase;
-	font: 300 25px/25px Tola, sans-serif;
+	font: 300 25px/25px Lota, sans-serif;
 	margin-bottom:1.5em;
 	color:#000;
 }
 .span1 h4{
 	color: #000;
-    font: 400 16px/25px Tola, sans-serif;
+    font: 400 16px/25px Lota, sans-serif;
 	line-height:1.5em;
 	margin-top:1em;
 }
 .span1 h5{
 	color:#000;
-	font:400 20px/20px 'Tola', sans-serif;
+	font:400 20px/20px 'Lota';
 }
 .span1 p{
 	color: #999;
-    font:300 16px/25px Tola, sans-serif;
+    font:300 16px/25px Lota, sans-serif;
 	line-height:1.8em;
 }
 p.m_4{
@@ -1364,23 +1364,23 @@ ul.about_box li.box_img {
 ul.about_box li.box_desc {
 	overflow: hidden;
 	color: #999;
-	font: 300 16px/25px Tola, sans-serif;
+	font: 300 16px/25px Lota, sans-serif;
 	line-height: 1.8em;
 }
 ul.about_box h4 {
 	margin-top: 1em;
 	color: #999;
-	font: 300 16px/25px Tola, sans-serif;
+	font: 300 16px/25px Lota, sans-serif;
 	line-height: 1.8em;
 }
 .feature h4 {
 	color: #000;
-	font: 300 20px/25px Tola, sans-serif;
+	font: 300 20px/25px Lota, sans-serif;
 	text-transform: uppercase;
 }
 .feature p {
 	color: #999;
-	font: 300 16px/25px Tola, sans-serif;
+	font: 300 16px/25px Lota, sans-serif;
 	line-height: 1.8em;
 }
 .about_box1 {
@@ -1400,7 +1400,7 @@ p.comment-form-author {
 	padding: 10px;
 	width: 95%;
 	color: #9198A3;
-	font: 300 16px/25px Tola, sans-serif;
+	font: 300 16px/25px Lota, sans-serif;
 	background: #fff;
 	outline: none;
 	display: block;
@@ -1414,7 +1414,7 @@ p.comment-form-author {
 	border: 1px solid #eee;
 	outline: none;
 	color: #9198A3;
-	font: 300 16px/25px Tola, sans-serif;
+	font: 300 16px/25px Lota, sans-serif;
 	-webkit-appearance: none;
 	resize: none;
 	height: 150px;
@@ -1465,7 +1465,7 @@ i.mail{
 }
 .contact_address, .contact_email {
 	overflow: hidden;
-	font: 300 16px/25px Tola, sans-serif;
+	font: 300 16px/25px Lota, sans-serif;
 	color: #999;
 	line-height: 1.5em;
 }
@@ -1479,7 +1479,7 @@ i.mail{
 	margin-bottom:1.5em;
 }
 .contact_right h3{
-	font: 300 20px/25px Tola, sans-serif;
+	font: 300 20px/25px Lota, sans-serif;
 	color: #000;
 	text-transform: uppercase;
 	margin-bottom: 1.5em;
@@ -1497,7 +1497,7 @@ i.mail{
 	text-align:center;
 }
 .page-not-found h1{
-	font: 300 150px/150px Tola, sans-serif;
+	font: 300 150px/150px Lota, sans-serif;
 	color:#000;
 	margin-bottom:0.5em;
 }
@@ -1506,7 +1506,7 @@ i.mail{
 	background:#4B1C52;
 	text-decoration: none;
 	padding: 15px 40px;
-	font: 300 16px/16px Tola, sans-serif;
+	font: 300 16px/16px Lota, sans-serif;
 }
 /*--register--*/
 .register-top-grid h3, .register-bottom-grid h3 {
@@ -1523,7 +1523,7 @@ i.mail{
 }
 .register-top-grid span, .register-bottom-grid span {
 	color:#999;
-	font: 300 14px/25px Tola, sans-serif;
+	font: 300 14px/25px Lota, sans-serif;
 	padding-bottom: 0.2em;
 	display: block;
 	text-transform: uppercase;
@@ -1544,7 +1544,7 @@ i.mail{
 }
 .checkbox {
 	position: relative;
-	font: 300 14px/25px Tola, sans-serif;
+	font: 300 14px/25px Lota, sans-serif;
 	color:#555;
 }
 .checkbox:last-child {
@@ -1639,7 +1639,7 @@ div.register-bottom-grid {
 .login-left p, .login-right p {
 	color:#999;
 	display: block;
-	font: 300 16px/25px Tola, sans-serif;
+	font: 300 16px/25px Lota, sans-serif;
 	margin: 0 0 1.5em 0;
 	line-height: 1.8em;
 }
@@ -1668,7 +1668,7 @@ div.register-bottom-grid {
 }
 .login-right span {
 	color: #555;
-	font: 300 14px/25px Tola, sans-serif;
+	font: 300 14px/25px Lota, sans-serif;
 	padding-bottom: 0.2em;
 	display: block;
 	text-transform: uppercase;
@@ -1698,12 +1698,12 @@ div.register-bottom-grid {
 	background:#000;
 }
 a.forgot {
-	font: 300 14px/25px Tola, sans-serif;
+	font: 300 14px/25px Lota, sans-serif;
 }
 h4.title {
 	color: #000;
 	margin-bottom: 0.5em;
-	font: 300 18px/25px Tola, sans-serif;
+	font: 300 18px/25px Lota, sans-serif;
 	text-transform: uppercase;
 	border-bottom: 1px solid #DFDDDD;
 	padding-bottom: 13px;
@@ -1711,17 +1711,17 @@ h4.title {
 p.cart {
 	color: #999;
 	line-height: 1.8em;
-	font: 300 16px/25px Tola, sans-serif;
+	font: 300 16px/25px Lota, sans-serif;
 }
 /*--responsive design--*/
 @media(max-width:1366px){
 .banner_desc h1 {
-	font: 300 45px/45px 'Tola', sans-serif;
+	font: 300 45px/45px 'Lota', sans-serif;
 }
 }
 @media(max-width:1024px){
 .banner_desc h1 {
-	font: 300 43px/43px 'Tola', sans-serif;
+	font: 300 43px/43px 'Lota', sans-serif;
 }
 .banner_desc {
 	top: 23%;
@@ -1732,10 +1732,10 @@ p.cart {
 	padding: 7px 18px;
 }
 .banner_desc h2 {
-	font: 300 18px/23px 'Tola', sans-serif;
+	font: 300 18px/23px 'Lota', sans-serif;
 }
 .f_grid1 h3, .f_grid3 h3 {
-	font: 400 20px/25px Tola, sans-serif;
+	font: 400 20px/25px Lota, sans-serif;
 }
 .span_3_of_2 {
 	width: 51.3333%;
@@ -1745,7 +1745,7 @@ p.cart {
 	margin-right: 2.6%;
 }
 .span_3_of_2 h1 {
-	font: 400 22px/22px Tola, sans-serif;
+	font: 400 22px/22px Lota, sans-serif;
 	margin-bottom: 1em;
 }
 }
@@ -1767,7 +1767,7 @@ ul.nav {
 	margin: 1em 0;
 }
 .banner_desc h1 {
-	font: 300 32px/32px 'Tola', sans-serif;
+	font: 300 32px/32px 'Lota', sans-serif;
 }
 .content_right{
 	margin-top:4em;
@@ -1839,7 +1839,7 @@ ul.nav {
 ul.shopping_grid li {
 	padding: 10px 5px 0;
 	min-height: 38px;
-	font: 600 14px/14px 'Tola', sans-serif;
+	font: 600 14px/14px 'Lota', sans-serif;
 }
 .logo img{
 	width:70%;
@@ -1848,10 +1848,10 @@ ul.shopping_grid li {
 	font-size: 1.1em;
 }
 .banner_desc h1 {
-	font: 300 25px/25px 'Tola', sans-serif;
+	font: 300 25px/25px 'Lota', sans-serif;
 }
 .banner_desc h2 {
-	font: 300 15px/20px 'Tola', sans-serif;
+	font: 300 15px/20px 'Lota', sans-serif;
 }
 .banner_desc {
 	top: 20%;
@@ -1886,10 +1886,10 @@ ul.shopping_grid li {
 	left: 13%;
 }
 .banner_desc h1 {
-	font: 300 18px/18px 'Tola', sans-serif;
+	font: 300 18px/18px 'Lota', sans-serif;
 }
 .banner_desc h2 {
-	font: 300 13px/17px 'Tola', sans-serif;
+	font: 300 13px/17px 'Lota', sans-serif;
 }
 .cssmenu ul li a {
 	margin: 0 5px;
@@ -1936,7 +1936,7 @@ ul.shopping_grid li {
 	left: -17px;
 }
 .banner_desc h1 {
-	font: 300 14px/15px 'Tola', sans-serif;
+	font: 300 14px/15px 'Lota', sans-serif;
 }
 .banner_desc h2{
 	display:none; 
@@ -1945,7 +1945,7 @@ ul.shopping_grid li {
 	top: 30%;
 }
 .stay {
-	font: 800 12px/13px 'Tola', sans-serif;
+	font: 800 12px/13px 'Lota', sans-serif;
 }
 .stay_right {
 	width: 55%;
@@ -1956,7 +1956,7 @@ ul.shopping_grid li {
 	font-size: 13px;
 }
 .delivery h3, .delivery h4{
-	font: 300 25px/25px 'Tola', sans-serif;
+	font: 300 25px/25px 'Lota', sans-serif;
 }
 .twitter {
 	margin-top: 2em;
@@ -1972,7 +1972,7 @@ ul.shopping_grid li {
 	margin-top:0;
 }
 h4.head {
-	font: 700 16px/30px 'Tola', sans-serif;
+	font: 700 16px/30px 'Lota', sans-serif;
 	padding: 0px 0 0 20px;
 }
 .main {
@@ -1989,10 +1989,10 @@ ul.list {
 	min-height: 725px;
 }
 .feature h4 {
-	font: 300 15px/15px Tola, sans-serif;
+	font: 300 15px/15px Lota, sans-serif;
 }
 ul.about_box li.box_desc {
-	font: 300 15px/25px Tola, sans-serif;
+	font: 300 15px/25px Lota, sans-serif;
 }
 .map iframe {
 	min-height:200px;
@@ -2001,7 +2001,7 @@ ul.about_box li.box_desc {
 	width: 100%;
 }
 .page-not-found h1 {
-	font: 300 90px/90px Tola, sans-serif;
+	font: 300 90px/90px Lota, sans-serif;
 }
 }
 .banner_desc{background: #000 none repeat scroll 0 0;
