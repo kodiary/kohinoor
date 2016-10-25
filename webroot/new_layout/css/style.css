@@ -2000,3 +2000,14 @@ ul.about_box li.box_desc {
 img{max-width:100%;}
 .whitebg{background:#FFF;padding-top:15px;}
 .padleft0{padding-left:0!important;}
+.banner_bottom{
+    background-color: #000;
+    color: #fff;
+    opacity:0.6;
+    position:absolute;
+    bottom:0;
+    z-index:999;
+    width:100%;
+    text-align: center;
+    
+}

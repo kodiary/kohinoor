@@ -147,7 +147,7 @@ use Cake\ORM\TableRegistry;
               ?>
               <h3 class="menu_head">Enquire Package</h3>
               <div class="enquire">
-              <form method="post" class="enuire_package" >
+              <form method="post" class="enuire_package"  style="background: #FFF;padding:10px;">
                 <input type="hidden" name="p_id" value="<?php if(isset($pack))echo $pack->title;?>"/>
                 <input type="hidden" name="cap" value=""/>
                   <div class="form-group">

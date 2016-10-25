@@ -4,11 +4,10 @@ use Cake\ORM\TableRegistry;
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Fashionpress an E-Commerce online Shopping Category Flat Bootstarp responsive Website Template| Home :: w3layouts</title>
+<title>The Kohinoor Himalaya Travel & Tours</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Fashionpress Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<meta name="keywords" content="The Kohinoor Himalaya Travel & Tours" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <link href="<?php echo $this->request->webroot;?>new_layout/css/bootstrap.css" rel='stylesheet' type='text/css' />
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -21,7 +20,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script src="<?php echo $this->request->webroot;?>new_layout/js/responsiveslides.min.js"></script>
 <script>
     $(function () {
-      $("#slider").responsiveSlides({
+      $(".slider").responsiveSlides({
       	auto: true,
       	nav: true,
       	speed: 500,
@@ -47,7 +46,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         ?>
 <div class="slider">
 	  <div class="callbacks_container">
-	      <ul class="rslides" id="slider">
+	      <ul class="rslides slider" >
             <?php
         $sliders = TableRegistry::get('Sliders')->find()->order(['id'=>'asc'])->all();
         foreach($sliders as $s)
@@ -67,7 +66,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="column_center">
   <div class="container">
 	<div class="search col-md-5">
-	  <div class="stay">Search Product</div>
+	  <div class="stay">Search Package</div>
 	  <div class="stay_right">
 		  <input type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}">
 		  <input type="submit" value="">

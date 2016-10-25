@@ -16,11 +16,30 @@
         
         <div class="blog">
           <div class="clear"></div>
-          
-                    <img src="<?php echo $this->request->webroot;?>img/package/resized/<?php echo $pack->image;?>" />
-          
-          
-          
+          <div class="slider">
+	           <div class="callbacks_container">
+                <ul class="rslides slider">
+                    <li>
+            	       <img src="<?php echo $this->request->webroot;?>img/package/resized/<?php echo $pack->image;?>" />
+                        <div class="banner_bottom">
+                            <span>This is test.</span>
+                        </div>
+                    </li>
+                     <li>
+            	       <img src="<?php echo $this->request->webroot;?>img/package/resized/img718_2016_07_21_10_24_47.jpg" />
+                         <div class="banner_bottom">
+                            <span>This is test.</span>
+                        </div>
+                    </li>
+                     <li>
+            	       <img src="<?php echo $this->request->webroot;?>img/package/resized/img949_2016_07_21_10_13_12.jpg" />
+                         <div class="banner_bottom">
+                            <span>This is test.</span>
+                        </div>
+                    </li>
+                </ul>
+                </div>
+            </div>
             <?php echo $pack->description; ?>  
           
         </div>
