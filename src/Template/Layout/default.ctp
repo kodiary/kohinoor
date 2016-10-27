@@ -59,8 +59,11 @@ use Cake\ORM\TableRegistry;
 	        <li><img src="<?php echo $this->request->webroot;?>assets/frontend/pages/img/layerslider/<?php echo $s->image?>" class="img-responsive" alt=""/>
 	        <div class="banner_desc">
 				<h1><?php echo $s->title;?></h1>
-				<h2><?php echo $s->caption;?></h2>
+				
 			</div>
+            <div class="banner_bottom">
+            <span><?php echo $s->caption;?></span>
+            </div>
 	        </li>
         <?php }?>
 	      </ul>
@@ -115,9 +118,9 @@ use Cake\ORM\TableRegistry;
 		<div class="col-md-6 f_grid3">
 			<h3>Contact Info</h3>
 			<ul class="list">
-				<li><p>Phone : 1.800.254.5487</p></li>
-				<li><p>Fax : 1.800.254.2548</p></li>
-				<li><p>Email : <a href="mailto:info(at)fashionpress.com"> info(at)fashionpress.com</a></p></li>
+				<li><p>Phone : +977 01-4495660</p></li>
+				<li><p>mobile :+977 9851195660</p></li>
+				<li><p>Email : <a href="mailto:info@kodiary.com"> info@kodiary.com</a></p></li>
 			</ul>
 			<ul class="list1">
 				<li><p>Aliquam augue a bibendum ipsum diam, semper porttitor libero elit egestas gravida, ut quam, nunc taciti</p></li>
@@ -138,7 +141,7 @@ use Cake\ORM\TableRegistry;
 				</ul>
 			</div>
 			<div class="copy">
-			    <p>&copy;  2015 Template by <a href="http://w3layouts.com" target="_blank">w3layouts</a></p>
+			    <p>&copy;  2016 Designed by <a href="http://kodiary.com" target="_blank">Kodiary</a></p>
 		    </div>
 		    <div class="clearfix"> </div>
        	</div>
