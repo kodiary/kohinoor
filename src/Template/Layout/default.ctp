@@ -28,6 +28,7 @@ use Cake\ORM\TableRegistry;
       	auto: true,
       	nav: true,
       	speed: 500,
+        pauseControls: true,
         namespace: "callbacks",
         pager: true,
       });
