@@ -9,6 +9,9 @@ use Cake\ORM\TableRegistry;
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="The Kohinoor Himalaya Travel & Tours" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link rel="icon" 
+      type="image/png" 
+      href="<?php echo $this->request->webroot;?>ms-icon-70x70.png">
 <link href="<?php echo $this->request->webroot;?>new_layout/css/bootstrap.css" rel='stylesheet' type='text/css' />
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <!-- Custom Theme files -->

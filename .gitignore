@@ -2,6 +2,7 @@ vendor/*
 config/app.php
 tmp/*
 logs/*
+webroot/fa/*
 */sqlite
 *.sqlite
 *.sqlite
