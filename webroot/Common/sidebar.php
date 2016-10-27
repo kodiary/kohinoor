@@ -57,7 +57,7 @@ use Cake\ORM\TableRegistry;
               {
                 ?>
                 <h3 class="menu_head">Pages</h3>
-               <ul class="menu" style="border-left: 1px solid #bbb">
+               <ul class="menu borders" style="">
                 <?php
               $pgcats = TableRegistry::get('PageCategory')->find()->order(['id'=>'desc'])->all();
               foreach($pgcats as $pgc)
@@ -92,7 +92,7 @@ use Cake\ORM\TableRegistry;
               }
               else
               {
-                if(isset($pack_side))
+                if(isset($pack_side) && count($pack_side))
                 {
                     ?>
                     <h3 class="menu_head">Related Packages</h3>

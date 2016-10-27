@@ -11,7 +11,11 @@ p {margin: 0;}
 html, body{
    font-family: 'Lato', sans-serif;
    font-size: 100%;
-   background:#fff; 
+   background: url(../images/bg.jpg) repeat center top;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 body a{
 	transition: 0.5s all;
@@ -497,7 +501,6 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 /*--index_content--*/
 .main{
-	background:#eee;
 	padding: 1em 0 5em;
 }
 h3.menu_head {
@@ -510,7 +513,6 @@ h3.menu_head {
 }
 .sidebar_box{
 	padding-right:0;
-	border-right: 1px solid #B8B8B8;
 }
 .menu {
 	width: auto;
@@ -924,19 +926,14 @@ span.m_2{
 	min-height:37px;
 }
 .footer{
-	background: url(../images/bg.jpg) no-repeat center top;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
 	min-height:350px;
-	padding:5em 0 0;
+	padding:2em 0 0;
 }
 .f_grid1 h3, .f_grid3 h3{
 	color:#000;
 	font: 400 25px/25px Lato, sans-serif;
 	text-transform:uppercase;
-	margin-bottom:1em;
+	margin-bottom:15px;
 }
 .f_grid1 p{
 	color: #616161;
@@ -2025,3 +2022,7 @@ a.collapsible{font-weight: bold;font-size:21px;background: #4B1C52;color:#FFF;di
     line-height: 3 !important;
     padding-left: 21px;}
 a:focus{outline:none!important;}
+.borders{border-left: 1px solid #bbb;border-right: 1px solid #bbb;}
+.collapse{display:block;padding-top:15px;}
+.collapse ul{list-style: disc;margin-left:25px;margin-top:5px;margin-bottom:15px;}
+#route p{padding-bottom:5px;}

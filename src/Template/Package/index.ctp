@@ -113,6 +113,8 @@
                 <?php
             }
             ?>
+            <p>&nbsp;</p>
+            <div class="clearfix"></div>
             <hr />
             <h4 class="head padleft0"><span class="m_2">Place your comment below</span></h4>
             <div class="fb-comments common" data-href="<?php echo $url;?>" data-numposts="5" style="width:100%;"></div>
