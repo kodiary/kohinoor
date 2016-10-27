@@ -2000,21 +2000,27 @@ ul.about_box li.box_desc {
 }
 }
 .banner_desc{background: #000 none repeat scroll 0 0;
+    border-radius: 167px;
+    height: 300px;
     opacity: 0.7;
-    text-align: center;}
+    padding: 67px 33px;
+    text-align: center;
+    width: 299px;}
 .packages{margin-bottom:10px;}
 img{max-width:100%;}
 .whitebg{background:#FFF;padding-top:15px;}
 .padleft0{padding-left:0!important;}
 .banner_bottom{
     background-color: #000;
+    bottom: 0;
     color: #fff;
-    opacity:0.6;
-    position:absolute;
-    bottom:0;
-    z-index:999;
-    width:100%;
+    font-size: 19px;
+    opacity: 0.6;
+    padding: 10px;
+    position: absolute;
     text-align: center;
+    width: 100%;
+    z-index: 999;
     
 }
 .side_group a{padding: 5px;display: block;margin-bottom: 5px;font-weight: bold; background: #FFF}
