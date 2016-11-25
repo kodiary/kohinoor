@@ -175,7 +175,7 @@ body.nav-md .container.body .right_col {
 .nav_title {
   width: 230px;
   float: left;
-  background: #2A3F54;
+  background: #4B1C52;
   border-radius: 0;
   height: 80px;
 }
@@ -296,7 +296,7 @@ body.nav-md .container.body .right_col {
 }
 body {
   color: #73879C;
-  background: #2A3F54;
+  background: #4B1C52;
   /*#ECF0F1; #FCFCFC*/
   font-family: "Helvetica Neue", Roboto, Arial, "Droid Sans", sans-serif;
   font-size: 13px;
@@ -545,10 +545,10 @@ li.current-page {
   color: #ff0000;
   text-shadow: rgba(0, 0, 0, 0.25) 0 -1px 0;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #5b6479), color-stop(100%, #4c5566)), #686e78;
-  background: -webkit-linear-gradient(#334556, #2C4257), #2A3F54;
-  background: -moz-linear-gradient(#334556, #2C4257), #2A3F54;
-  background: -o-linear-gradient(#334556, #2C4257), #2A3F54;
-  background: linear-gradient(#334556, #2C4257), #2A3F54;
+  background: -webkit-linear-gradient(#334556, #2C4257), #4B1C52;
+  background: -moz-linear-gradient(#334556, #2C4257), #4B1C52;
+  background: -o-linear-gradient(#334556, #2C4257), #4B1C52;
+  background: linear-gradient(#334556, #2C4257), #4B1C52;
   -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0 1px 0, inset rgba(255, 255, 255, 0.16) 0 1px 0;
   -moz-box-shadow: rgba(0, 0, 0, 0.25) 0 1px 0, inset rgba(255, 255, 255, 0.16) 0 1px 0;
   box-shadow: rgba(0, 0, 0, 0.25) 0 1px 0, inset rgba(255, 255, 255, 0.16) 0 1px 0;
@@ -563,18 +563,21 @@ li.current-page a {
   line-height: 32px;
 }
 .site_title {
-  text-overflow: ellipsis;
-  overflow: hidden;
-  font-weight: 400;
-  font-size: 22px;
-  width: 100%;
-  color: #ECF0F1 !important;
-  margin-left: 0 !important;
-  line-height: 59px;
-  display: block;
-  height: 78px;
-  margin: 0;
-  padding-left: 10px;
+  background: #fff none repeat scroll 0 0;
+    color: #ecf0f1 !important;
+    display: block;
+    font-size: 22px;
+    font-weight: 400;
+    height: 58px;
+    line-height: 59px;
+    margin-bottom: 0;
+    margin-left: 0 !important;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: hidden;
+    padding-left: 10px;
+    text-overflow: ellipsis;
+    width: 100%;
 }
 .site_title:hover, .site_title:focus {
   text-decoration: none
@@ -1495,7 +1498,7 @@ span.right {
   position: fixed;
   width: 230px;
   z-index: 1000;
-  background: #2A3F54;
+  background: #4B1C52;
 }
 .sidebar-footer a {
   padding: 7px 0 3px;
@@ -4725,6 +4728,7 @@ a.hiddenanchor {
 }
 #login {
   z-index: 22;
+  margin-top:10px;
 }
 #toregister:target ~ #wrapper #register, #tologin:target ~ #wrapper #login {
   z-index: 22;
@@ -5394,3 +5398,4 @@ ul.notifications {
 .imageaction{float:left;margin-left:20px;margin-top:100px;}
 .imageaction a{width:100px;}
 .cropbody{margin-top:20px;}
+.admin-logo{max-width:100%;}

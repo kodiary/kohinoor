@@ -3285,3 +3285,32 @@ Stack Trace:
 #1 {main}
 
 
+2016-11-01 15:51:35 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/img/tours/final/img588_2016_07_21_10_14_57.jpg
+Referer URL: http://localhost/kohinoor/search?keyword=k&country=&pcat=&tcat=&days=
+Client IP: 127.0.0.1
+Stack Trace:
+#0 E:\wamp\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-11-01 15:51:44 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/js/head.min.js.map
+Client IP: 127.0.0.1
+Stack Trace:
+#0 E:\wamp\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
