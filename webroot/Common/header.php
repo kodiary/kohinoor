@@ -2,7 +2,7 @@
 	<div class="header_top">
 		<div class="container">
 			<div class="logo">
-				<a href="<?php echo $this->request->webroot;?>"><img src="<?php echo $this->request->webroot;?>new_layout/images/kohinoor3.png" alt=""/></a>
+				<a href="<?php echo $this->request->webroot;?>"><img src="<?php echo $this->request->webroot;?>new_layout/images/kohinoor4.png" alt=""/></a>
 			</div>
 			<!--<ul class="shopping_grid">
                 <li></li>

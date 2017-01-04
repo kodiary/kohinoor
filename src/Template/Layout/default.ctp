@@ -4,10 +4,10 @@ use Cake\ORM\TableRegistry;
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>The Kohinoor Himalaya Travel & Tours</title>
+<title>The Great Kohinoor Himalaya Adventure Pvt. Ltd.</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="The Kohinoor Himalaya Travel & Tours" />
+<meta name="keywords" content="The Great Kohinoor Himalaya Adventure Pvt. Ltd." />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <link rel="icon" 
       type="image/png" 
