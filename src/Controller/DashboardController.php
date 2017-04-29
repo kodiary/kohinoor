@@ -212,10 +212,17 @@ class DashboardController extends AppController
     { 
         $this->loadModel('Packages');
         $this->loadModel('PackageCategory');
-        $this->set('cat',$this->PackageCategory);    
-            $q = $this->Packages->find()->order('cat_id')->all();
-            if($q)
-            $this->set('model', $q);
+        $this->set('cat',$this->PackageCategory);   
+        if(isset($_GET['is_tour']))
+        {
+          $q = $this->Packages->find()->where(['is_tour'=>1])->order('cat_id')->all();  
+          
+                           
+        } 
+        else 
+        $q = $this->Packages->find()->order('cat_id')->all();
+        if($q)
+        $this->set('model', $q);
             
     }
     public function editPackage($id)
@@ -223,6 +230,11 @@ class DashboardController extends AppController
         $this->loadModel('Packages');
         $this->loadModel('PackageCategory');
         $this->loadModel('Iteniery');
+        $this->loadModel('PackageImg');
+        $img = $this->PackageImg->find()->where(['package_id'=>$id]);
+        $img_count = $this->PackageImg->find()->where(['package_id'=>$id])->count();
+        $this->set('imgs',$img);
+        $this->set('img_count',$img_count);
         $this->set('cat',$this->PackageCategory);
         if($id)   { 
         $q = $this->Packages->find()->where(['id'=>$id])->first();
@@ -247,14 +259,17 @@ class DashboardController extends AppController
         else
         {
             $package = $ptable->get($id);
-            $img = $package->image;
+            
         }
-        
+        //var_dump($_POST);die();
         foreach($_POST as $k=>$p)
         {
-            if($k=='x' || $k=='y' || $k=='w' || $k=='h')
+            
+            if($k=='x' || $k=='y' || $k=='w' || $k=='h' || $k=='crop_value' || $k=='image' || $k=='cap')
             {
-                $dimension[$k] = $p;
+                foreach($_POST[$k] as $k1=>$p1){
+                $dimension[$k][$k1] = $p1;
+                }
             }
             elseif ($k=='iteniery')
             {
@@ -306,7 +321,9 @@ class DashboardController extends AppController
             $package->$k = $p;
             
             }
+            
         }
+        
         if(isset($_FILES['route_map']['name']) && $_FILES['route_map']['name'])
         {
             
@@ -319,24 +336,8 @@ class DashboardController extends AppController
             
         }
         //var_dump($package);die();
-        if((isset($package->image) && $package->image!='') || $_POST['crop_value']=='1' ){
-        $this->loadComponent('SimpleImage');
-        if($id!='0' && $_POST['crop_value']=='1' )
-        {
-            $this->SimpleImage->loader(APP.'../webroot/img/package/resized/'.$img);
-            $this->SimpleImage->crop($dimension['x'],$dimension['y'],$dimension['w'],$dimension['h'])->save(APP.'../webroot/img/package/final/'.$img);
-        }
-        else
-        {
-            $this->SimpleImage->loader(APP.'../webroot/img/package/resized/'.$package->image);
-            $this->SimpleImage->crop($dimension['x'],$dimension['y'],$dimension['w'],$dimension['h'])->save(APP.'../webroot/img/package/final/'.$package->image);
-        }
-        @unlink(APP.'../webroot/img/package/tmp/'.$package->image);
-        //unlink(APP.'../webroot/img/package/resized/'.$package->image);
-        }
-        else{
-            unset($package->image);
-        }
+        
+        
         //var_dump($package);die('2222');
         //$page = $_POST;
         //$page->body = 'This is the body of the article';
@@ -344,7 +345,40 @@ class DashboardController extends AppController
         {
             $package->slug = $this->generateSlug($package->title,'Packages');
         }
+        if(isset($dimension['image'][0]))
+        {
+            $package->image = $dimension['image'][0];
+        }
         if ($ptable->save($package)) {
+            
+            if(isset($dimension) && count($dimension))
+            {
+                //var_dump($dimension);die();
+                $this->loadModel('PackageImg');
+                $this->PackageImg->deleteAll(['package_id'=>$package->id]);
+                $count = count($dimension['image']);
+                for($i=0;$i<$count;$i++)
+                {
+                    if($dimension['x'][$i]!='' ||$dimension['y'][$i]!='' ||$dimension['w'][$i]!='' ||$dimension['h'][$i]!=''){
+                $this->loadComponent('SimpleImage');
+                
+                $this->SimpleImage->loader(APP.'../webroot/img/package/resized/'.$dimension['image'][$i]);
+                $this->SimpleImage->crop($dimension['x'][$i],$dimension['y'][$i],$dimension['w'][$i],$dimension['h'][$i])->save(APP.'../webroot/img/package/final/'.$dimension['image'][$i]);
+                unset($this->SimpleImage);
+                }
+                if($dimension['image'][$i]){
+                $pimage = TableRegistry::get('PackageImg');
+                    $pack_img = $pimage->newEntity();
+                    $pack_img->package_id = $package->id;
+                    $pack_img->image =$dimension['image'][$i];   
+                    $pack_img->caption =$dimension['cap'][$i];           
+                    $pimage->save($pack_img);
+                    unset($pimage);
+                    unset($pack_img);
+                    }
+                }
+            }
+            
             $this->loadModel('Iteniery');
             $this->Iteniery->deleteAll(['pid'=>$package->id]);
             //var_dump($ite_final);die();
@@ -365,16 +399,29 @@ class DashboardController extends AppController
             unset($package);
             $package = $ptable->get($pid);
             $package->days = $k+1;
-            $ptable->save($package);
-            
+            if(isset($_POST['is_tour']))
+            {
+               $this->Flash->success("Tour saved successfully");
+               $this->redirect('/dashboard/packages?is_tour=1'); 
+             }
+            else{
             $this->Flash->success("Package saved successfully");
            $this->redirect('/dashboard/packages');
-        }
-        else
-        {
+           }
+            $this->Flash->success("Package saved successfully");
+           $this->redirect('/dashboard/packages');
+        }else{
+            if(isset($_POST['is_tour']))
+            {
+               $this->Flash->success("There was problem saving Tour");
+               $this->redirect('/dashboard/editPackage/'.$id.'?is_tour=1'); 
+            }
+            else{
             $this->Flash->error("There was problem saving Package");
            $this->redirect('/dashboard/editPackage/'.$id);
-        }
+           }  
+           }  
+        
         
             
     }
@@ -761,6 +808,216 @@ class DashboardController extends AppController
         $this->Flash->success("Videos deleted successfully");
         $this->redirect('/dashboard/listVideos');
     } 
+    /*Associate Members */
+    public function listMembers()
+    {
+        $this->loadModel('Members');
+        $q = $this->Members->find()->all();
+        if($q)
+        $this->set('model', $q);
+    }
+    public function editMembers($id)
+    {
+        $this->loadModel('Members');
+       
+        if(isset($_FILES['image']['name']) && $_FILES['image']['name'])
+        {
+            $route = $_FILES['image']['name'];
+            $route_arr = explode('.',$route);
+            $ext = end($route_arr);
+            $route_name = rand(0,999999).'_'.rand(0,999999).'.'.$ext;
+            if(move_uploaded_file($_FILES['image']['tmp_name'],APP.'../webroot/img/members/'.$route_name))
+            $tc->image = $route_name;
+            
+        }
+        //$tourid = $this->TourCategory->find()->all();
+        //$this->set('tour', $tourid);
+        if($id)   { 
+        $q = $this->Members->find()->where(['id'=>$id])->first();
+            if($q)
+            $this->set('model', $q);
+            }
+            
+    }
+    public function saveMembers($id)
+    {
+        $vtable = TableRegistry::get('Members');
+        if(!$id)
+            $tc = $vtable->newEntity();
+        else
+        {
+            $tc = $vtable->get($id);
+        }
+        if(isset($_FILES['image']['name']) && $_FILES['image']['name'])
+        {
+            $route = $_FILES['image']['name'];
+            $route_arr = explode('.',$route);
+            $ext = end($route_arr);
+            $route_name = rand(0,999999).'_'.rand(0,999999).'.'.$ext;
+            @unlink(APP.'../webroot/img/members/'.$tc->image);
+            if(move_uploaded_file($_FILES['image']['tmp_name'],APP.'../webroot/img/members/'.$route_name))
+            $tc->image = $route_name;
+            
+        }
+        foreach($_POST as $k=>$p)
+        {
+            $tc->$k = $p;
+        }
+        //$page = $_POST;
+        //$page->body = 'This is the body of the article';
+        if ($vtable->save($tc)) {
+           $this->Flash->success("Memebrs saved successfully");
+           $this->redirect('/dashboard/listMembers');
+        }
+        else
+        {
+            $this->Flash->error("There was problem saving Member");
+           $this->redirect('/dashboard/editMembers/'.$id);
+        }
+        
+            
+    }
+     public function deleteMembers($id)
+    {
+        $this->loadModel('Members');
+        $entity = $this->Members->get($id);
+        @unlink(APP.'../webroot/img/members/'.$entity->image);
+        $result = $this->Members->delete($entity);
+      
+        $this->Flash->success("Members deleted successfully");
+        $this->redirect('/dashboard/listMembers');
+    }
+    /*My Team */
+    public function listTeam()
+    {
+        $this->loadModel('Teams');
+        $q = $this->Teams->find()->where(['is_testimonial'=>0])->all();
+        if($q)
+        $this->set('model', $q);
+    }
+    public function editTeam($id)
+    {
+        $this->loadModel('Teams');
+       
+        if(isset($_FILES['image']['name']) && $_FILES['image']['name'])
+        {
+            $route = $_FILES['image']['name'];
+            $route_arr = explode('.',$route);
+            $ext = end($route_arr);
+            $route_name = rand(0,999999).'_'.rand(0,999999).'.'.$ext;
+            if(move_uploaded_file($_FILES['image']['tmp_name'],APP.'../webroot/img/team/'.$route_name))
+            $tc->image = $route_name;
+            
+        }
+        //$tourid = $this->TourCategory->find()->all();
+        //$this->set('tour', $tourid);
+        if($id)   { 
+        $q = $this->Teams->find()->where(['id'=>$id])->first();
+            if($q)
+            $this->set('model', $q);
+            }
+            
+    }
+    public function saveTeam($id)
+    {
+        $vtable = TableRegistry::get('Teams');
+        if(!$id)
+            $tc = $vtable->newEntity();
+        else
+        {
+            $tc = $vtable->get($id);
+        }
+        if(isset($_FILES['image']['name']) && $_FILES['image']['name'])
+        {
+            $route = $_FILES['image']['name'];
+            $route_arr = explode('.',$route);
+            $ext = end($route_arr);
+            $route_name = rand(0,999999).'_'.rand(0,999999).'.'.$ext;
+            @unlink(APP.'../webroot/img/team/'.$tc->image);
+            if(move_uploaded_file($_FILES['image']['tmp_name'],APP.'../webroot/img/team/'.$route_name))
+            $tc->image = $route_name;
+            
+        }
+        foreach($_POST as $k=>$p)
+        {
+            $tc->$k = $p;
+        }
+        //$page = $_POST;
+        //$page->body = 'This is the body of the article';
+        if ($vtable->save($tc)) {
+            if($_POST['is_testimonial']==0)
+            {
+                $this->Flash->success("Team saved successfully");
+                $this->redirect('/dashboard/listTeam'); 
+            }
+            else
+            {
+                $this->Flash->success("Tesimonial saved successfully");
+                $this->redirect('/dashboard/listTestimonial'); 
+            }
+           
+        }
+        else
+        {
+            if($_POST['is_testimonial']==0)
+            {
+                $this->Flash->error("There was problem saving Team");
+                $this->redirect('/dashboard/editTeam/'.$id);
+            }
+            else
+            {
+                $this->Flash->error("There was problem saving Tesimonial");
+                $this->redirect('/dashboard/editTestimonial/'.$id); 
+            }
+        }
+        
+            
+    }
+     public function deleteteam($id)
+    {
+        $this->loadModel('Teams');
+        $entity = $this->Teams->get($id);
+        @unlink(APP.'../webroot/img/team/'.$entity->image);
+        $result = $this->Teams->delete($entity);
+      
+        $this->Flash->success("Team deleted successfully");
+        $this->redirect('/dashboard/listTeam');
+    }
+    /* testimonials */
+    public function listTestimonial()
+    {
+        $this->loadModel('Teams');
+        $q = $this->Teams->find()->where(['is_testimonial'=>1])->all();
+        
+        if($q)
+        $this->set('model', $q);
+        $this->render('list_team');
+    }
+    public function editTestimonial($id)
+    {
+        $this->loadModel('Teams');
+       
+        if(isset($_FILES['image']['name']) && $_FILES['image']['name'])
+        {
+            $route = $_FILES['image']['name'];
+            $route_arr = explode('.',$route);
+            $ext = end($route_arr);
+            $route_name = rand(0,999999).'_'.rand(0,999999).'.'.$ext;
+            if(move_uploaded_file($_FILES['image']['tmp_name'],APP.'../webroot/img/team/'.$route_name))
+            $tc->image = $route_name;
+            
+        }
+        //$tourid = $this->TourCategory->find()->all();
+        //$this->set('tour', $tourid);
+       
+        if($id)   { 
+        $q = $this->Teams->find()->where(['id'=>$id])->first();
+            if($q)
+            $this->set('model', $q);
+            }
+         $this->render('edit_team');
+            
+    }
     
     /* sllider manager */
     
@@ -864,11 +1121,11 @@ class DashboardController extends AppController
     {
         $this->loadModel('Blogs');
         $this->loadModel('PackageCategory');
-        $this->loadModel('TourCategory');
+        //$this->loadModel('TourCategory');
         $this->loadModel('Tags');
         $packid = $this->PackageCategory->find()->all();
         $this->set('package', $packid);
-        $tourid = $this->TourCategory->find()->all();
+        //$tourid = $this->TourCategory->find()->all();
         //$this->set('tour', $tourid);
         $tagid = $this->Tags->find()->where(['blog_id'=>$id])->all();
         $this->set('tag', $tagid);
@@ -905,10 +1162,7 @@ class DashboardController extends AppController
                 {
                     $package[] = str_replace('p','',$post);
                 }
-                else
-                {
-                    $tour[] = str_replace('t','',$post);
-                }
+                
             }
             unset($_POST['tags']);
         }
@@ -955,18 +1209,7 @@ class DashboardController extends AppController
             }
             
             }
-            if(isset($tour) && count($tour))
-            {
-            foreach($tour as $p){    
-                $ttable = TableRegistry::get('Tags');
-                $ent =  $ttable->newEntity();
-                $ent->tour_id = $p;
-                $ent->blog_id = $blog->id;
-                $ttable->save($ent);
-                unset($ttable);
-                unset($ent);
-            }
-            }
+            
             
             $this->Flash->success("Blog saved successfully");
            $this->redirect('/dashboard/blogs');
@@ -989,6 +1232,12 @@ class DashboardController extends AppController
         $result = $this->Blogs->delete($entity);
         $this->Flash->success("Blog deleted successfully");
         $this->redirect('/dashboard/blogs');
+    }
+    
+    public function loadPackSlider()
+    {
+        $this->set('rand',$_POST['rand']);
+        $this->viewBuilder()->layout('blank');
     }
 
 }

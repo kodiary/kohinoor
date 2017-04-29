@@ -81,7 +81,7 @@
                         foreach($tag as $t)
                                 {
                                     $package_array[] = $t->package_id;
-                                    $tour_array[] = $t->tour_id;
+                                    //$tour_array[] = $t->tour_id;
                                    
                                 }
                         foreach($package as $p)

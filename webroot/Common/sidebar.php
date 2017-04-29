@@ -79,6 +79,16 @@ use Cake\ORM\TableRegistry;
                                 
                                 <?php
                             }
+                            if(strtolower($pgc->title) == 'main pages')
+                            {?>
+                                <li class="subitem1">
+                                    <a href="<?php echo $this->request->webroot;?>pages/team">Our Team</a>
+                                </li>
+                                 <li class="subitem1">
+                                    <a href="<?php echo $this->request->webroot;?>pages/testimonial">Tesimonials</a>
+                                </li>
+                             <?php 
+                            }
                         ?>
                         </ul>
                     </li>
