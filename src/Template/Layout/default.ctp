@@ -151,7 +151,15 @@ use Cake\ORM\TableRegistry;
 		<div class="col-md-3 f_grid1">
 			<h3>About</h3>
 			<a href="#"><img src="<?php echo $this->request->webroot;?>new_layout/images/kohinoor4.png" alt="" style="max-width: 100%;"/></a>
-			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+			<p>
+            <?php
+            $about = TableRegistry::get('pages')->find()->where(['slug'=>'about-us'])->first();
+           
+            echo substr($about->description,0,250)." ...";
+            ?>
+            </p>
+            <br />
+            <a href="<?php echo $this->request->webroot;?>/pages/view/about-us">Read More</a>
 		</div>
 		<div class="col-md-3 f_grid1 f_grid2">
 			<h3>Follow Us</h3>
@@ -162,15 +170,26 @@ use Cake\ORM\TableRegistry;
 				<li><a href=""><i class="instagram"> </i><p class="m_3">Instagram</p><div class="clearfix"> </div></a></li>
 			</ul>
 		</div>
-		<div class="col-md-6 f_grid3">
+		<div class="col-md-3 f_grid3">
 			<h3>Contact Info</h3>
 			<ul class="list">
 				<li><p>Phone : +977 01-4495660</p></li>
 				<li><p>mobile :+977 9851195660</p></li>
 				<li><p>Email : <a href="mailto:info@kodiary.com"> info@kodiary.com</a></p></li>
 			</ul>
+        </div>
+        <div class="col-md-3">
+            <h3>Associate Members</h3>
 			<ul class="list1">
-				<li><p>Aliquam augue a bibendum ipsum diam, semper porttitor libero elit egestas gravida, ut quam, nunc taciti</p></li>
+                <li> <?php
+                        $members =  TableRegistry::get('members')->find()->all();
+                        foreach($members as $member)
+                        {
+                            echo "<a href='".$member->link."' target='_blank'><img src='".$this->request->webroot."img/members/".$member->image."' width='50px' height='50px'/> </a>";
+                        }
+                   ?>
+                </li>
+				
 			</ul>
 			<div class="clearfix"> </div>
 		</div>

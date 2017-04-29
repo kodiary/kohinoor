@@ -4583,3 +4583,1801 @@ Stack Trace:
 #1 {main}
 
 
+2017-04-29 10:18:27 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/js/head.min.js.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:18:29 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/css/bootstrap.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:18:35 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/js/head.min.js.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:18:37 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/css/bootstrap.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:18:38 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/js/head.min.js.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:18:40 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/css/bootstrap.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:18:44 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/js/head.min.js.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:18:45 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/css/bootstrap.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:28:56 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/js/head.min.js.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:28:58 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/css/bootstrap.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:29:40 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/js/head.min.js.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:29:42 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/css/bootstrap.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:30:59 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/js/head.min.js.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:31:03 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/css/bootstrap.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:32:40 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'kohinoor.members' doesn't exist
+Request URL: /kohinoor/search?keyword=a&country=&pcat=&tcat=&days=
+Referer URL: http://localhost/kohinoor/pages/view/about-us
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'members', Array, Object(Cake\Database\Schema\Table))
+#1 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(64): Cake\Database\Schema\Collection->describe('members', Array)
+#2 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\ORM\Table.php(430): Cake\Database\Schema\CachedCollection->describe('members')
+#3 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\ORM\Query.php(211): Cake\ORM\Table->schema()
+#4 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\ORM\Query.php(169): Cake\ORM\Query->addDefaultTypes(Object(Cake\ORM\Table))
+#5 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\ORM\Table.php(1243): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(Cake\ORM\Table))
+#6 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\ORM\Table.php(946): Cake\ORM\Table->query()
+#7 E:\Ampps\www\kohinoor\src\Template\Layout\default.ctp(177): Cake\ORM\Table->find()
+#8 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\View\View.php(995): include('E:\\Ampps\\www\\ko...')
+#9 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\View\View.php(955): Cake\View\View->_evaluate('E:\\Ampps\\www\\ko...', Array)
+#10 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\View\View.php(633): Cake\View\View->_render('E:\\Ampps\\www\\ko...')
+#11 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\View\View.php(592): Cake\View\View->renderLayout('', 'default')
+#12 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render(NULL, NULL)
+#13 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#14 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\SearchController))
+#15 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2017-04-29 10:33:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/img/members/548889_424407.jpg
+Referer URL: http://localhost/kohinoor/search?keyword=a&country=&pcat=&tcat=&days=
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:33:51 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/img/members/35583_786590.jpg
+Referer URL: http://localhost/kohinoor/search?keyword=a&country=&pcat=&tcat=&days=
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:33:52 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/img/members/133911_910552.jpg
+Referer URL: http://localhost/kohinoor/search?keyword=a&country=&pcat=&tcat=&days=
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:33:53 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/img/members/215332_597930.jpg
+Referer URL: http://localhost/kohinoor/search?keyword=a&country=&pcat=&tcat=&days=
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:33:53 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/img/members/715637_224945.jpg
+Referer URL: http://localhost/kohinoor/search?keyword=a&country=&pcat=&tcat=&days=
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:33:59 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/css/bootstrap.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:34:00 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/js/head.min.js.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:34:33 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/js/head.min.js.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:34:36 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/css/bootstrap.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:35:10 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/js/head.min.js.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:35:14 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/css/bootstrap.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:39:01 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/js/head.min.js.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:39:03 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/css/bootstrap.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:40:30 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/js/head.min.js.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:40:34 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/css/bootstrap.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:44:29 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/js/head.min.js.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:44:30 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/css/bootstrap.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:45:10 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'about' in 'where clause'
+Request URL: /kohinoor/search?keyword=a&country=&pcat=&tcat=&days=
+Referer URL: http://localhost/kohinoor/pages/view/about-us
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(171): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\Database\Connection.php(272): Cake\Database\Log\LoggingStatement->execute()
+#4 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\Database\Query.php(188): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\ORM\Query.php(938): Cake\Database\Query->execute()
+#6 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(272): Cake\ORM\Query->_execute()
+#7 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\ORM\Query.php(888): Cake\ORM\Query->_all()
+#8 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(395): Cake\ORM\Query->all()
+#9 E:\Ampps\www\kohinoor\src\Template\Layout\default.ctp(156): Cake\ORM\Query->first()
+#10 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\View\View.php(995): include('E:\\Ampps\\www\\ko...')
+#11 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\View\View.php(955): Cake\View\View->_evaluate('E:\\Ampps\\www\\ko...', Array)
+#12 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\View\View.php(633): Cake\View\View->_render('E:\\Ampps\\www\\ko...')
+#13 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\View\View.php(592): Cake\View\View->renderLayout('', 'default')
+#14 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render(NULL, NULL)
+#15 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#16 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\SearchController))
+#17 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#18 {main}
+
+
+2017-04-29 10:45:36 Warning: Warning (2): substr() expects parameter 3 to be long, string given in [E:\Ampps\www\kohinoor\src\Template\Layout\default.ctp, line 158]
+Request URL: /kohinoor/search?keyword=a&country=&pcat=&tcat=&days=
+Referer URL: http://localhost/kohinoor/pages/view/about-us
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+substr - [internal], line ??
+include - APP/Template\Layout\default.ctp, line 158
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-04-29 10:45:39 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/js/head.min.js.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:45:42 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/css/bootstrap.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:46:21 Warning: Warning (2): substr() expects parameter 3 to be long, string given in [E:\Ampps\www\kohinoor\src\Template\Layout\default.ctp, line 158]
+Request URL: /kohinoor/search?keyword=a&country=&pcat=&tcat=&days=
+Referer URL: http://localhost/kohinoor/pages/view/about-us
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+substr - [internal], line ??
+include - APP/Template\Layout\default.ctp, line 158
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 633
+Cake\View\View::render() - CORE\src\View\View.php, line 592
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-04-29 10:46:24 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/js/head.min.js.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:46:28 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/css/bootstrap.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:47:08 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/js/head.min.js.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:47:11 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/css/bootstrap.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:49:56 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/js/head.min.js.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:50:00 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/css/bootstrap.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:50:30 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Admin_files could not be found.
+Exception Attributes: array (
+  'class' => 'Admin_files',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/admin_files/css/bootstrap.min.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:50:38 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Admin_files could not be found.
+Exception Attributes: array (
+  'class' => 'Admin_files',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/admin_files/css/bootstrap.min.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:50:44 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Admin_files could not be found.
+Exception Attributes: array (
+  'class' => 'Admin_files',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/admin_files/css/bootstrap.min.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:50:56 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Admin_files could not be found.
+Exception Attributes: array (
+  'class' => 'Admin_files',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/admin_files/css/bootstrap.min.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:51:30 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Admin_files could not be found.
+Exception Attributes: array (
+  'class' => 'Admin_files',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/admin_files/css/bootstrap.min.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:51:38 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Admin_files could not be found.
+Exception Attributes: array (
+  'class' => 'Admin_files',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/admin_files/css/bootstrap.min.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:51:46 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Admin_files could not be found.
+Exception Attributes: array (
+  'class' => 'Admin_files',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/admin_files/css/bootstrap.min.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:52:31 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Admin_files could not be found.
+Exception Attributes: array (
+  'class' => 'Admin_files',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/admin_files/css/bootstrap.min.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:53:12 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Admin_files could not be found.
+Exception Attributes: array (
+  'class' => 'Admin_files',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/admin_files/css/bootstrap.min.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:53:22 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Admin_files could not be found.
+Exception Attributes: array (
+  'class' => 'Admin_files',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/admin_files/css/bootstrap.min.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:54:17 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Admin_files could not be found.
+Exception Attributes: array (
+  'class' => 'Admin_files',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/admin_files/css/bootstrap.min.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:55:11 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Admin_files could not be found.
+Exception Attributes: array (
+  'class' => 'Admin_files',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/admin_files/css/bootstrap.min.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:55:16 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Admin_files could not be found.
+Exception Attributes: array (
+  'class' => 'Admin_files',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/admin_files/css/bootstrap.min.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:55:43 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Admin_files could not be found.
+Exception Attributes: array (
+  'class' => 'Admin_files',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/admin_files/css/bootstrap.min.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:56:36 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Admin_files could not be found.
+Exception Attributes: array (
+  'class' => 'Admin_files',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/admin_files/css/bootstrap.min.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:56:44 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Admin_files could not be found.
+Exception Attributes: array (
+  'class' => 'Admin_files',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/admin_files/css/bootstrap.min.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:56:53 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Admin_files could not be found.
+Exception Attributes: array (
+  'class' => 'Admin_files',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/admin_files/css/bootstrap.min.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:57:00 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'kohinoor.package_img' doesn't exist
+Request URL: /kohinoor/dashboard/editPackage/0
+Referer URL: http://localhost/kohinoor/dashboard/packCat
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'package_img', Array, Object(Cake\Database\Schema\Table))
+#1 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(64): Cake\Database\Schema\Collection->describe('package_img', Array)
+#2 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\ORM\Table.php(430): Cake\Database\Schema\CachedCollection->describe('package_img')
+#3 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\ORM\Query.php(211): Cake\ORM\Table->schema()
+#4 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\ORM\Query.php(169): Cake\ORM\Query->addDefaultTypes(Object(Cake\ORM\Table))
+#5 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\ORM\Table.php(1243): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(Cake\ORM\Table))
+#6 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\ORM\Table.php(946): Cake\ORM\Table->query()
+#7 E:\Ampps\www\kohinoor\src\Controller\DashboardController.php(234): Cake\ORM\Table->find()
+#8 [internal function]: App\Controller\DashboardController->editPackage('0')
+#9 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#10 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#11 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\DashboardController))
+#12 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#13 {main}
+
+
+2017-04-29 10:58:22 Warning: Warning (2): include(E:\Ampps\www\kohinoor\src\../webroot/Common/package_slider.php): failed to open stream: No such file or directory in [E:\Ampps\www\kohinoor\src\Template\Dashboard\edit_package.ctp, line 110]
+Request URL: /kohinoor/dashboard/editPackage/0
+Referer URL: http://localhost/kohinoor/dashboard/packCat
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Dashboard\edit_package.ctp, line 110
+include - APP/Template\Dashboard\edit_package.ctp, line 110
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::render() - CORE\src\View\View.php, line 587
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-04-29 10:58:22 Warning: Warning (2): include(E:\Ampps\www\kohinoor\src\../webroot/Common/package_slider.php) [<a href='http://php.net/function.include'>function.include</a>]: failed to open stream: No such file or directory in [E:\Ampps\www\kohinoor\src\Template\Dashboard\edit_package.ctp, line 110]
+Request URL: /kohinoor/dashboard/editPackage/0
+Referer URL: http://localhost/kohinoor/dashboard/packCat
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Dashboard\edit_package.ctp, line 110
+include - APP/Template\Dashboard\edit_package.ctp, line 110
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::render() - CORE\src\View\View.php, line 587
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-04-29 10:58:22 Warning: Warning (2): include() [<a href='http://php.net/function.include'>function.include</a>]: Failed opening 'E:\Ampps\www\kohinoor\src\../webroot/Common/package_slider.php' for inclusion (include_path='.;C:\php\pear') in [E:\Ampps\www\kohinoor\src\Template\Dashboard\edit_package.ctp, line 110]
+Request URL: /kohinoor/dashboard/editPackage/0
+Referer URL: http://localhost/kohinoor/dashboard/packCat
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Dashboard\edit_package.ctp, line 110
+include - APP/Template\Dashboard\edit_package.ctp, line 110
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::render() - CORE\src\View\View.php, line 587
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-04-29 10:58:30 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Admin_files could not be found.
+Exception Attributes: array (
+  'class' => 'Admin_files',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/admin_files/css/bootstrap.min.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 10:58:59 Warning: Warning (2): include(E:\Ampps\www\kohinoor\src\../webroot/Common/package_slider.php): failed to open stream: No such file or directory in [E:\Ampps\www\kohinoor\src\Template\Dashboard\load_pack_slider.ctp, line 1]
+Request URL: /kohinoor/dashboard/loadPackSlider
+Referer URL: http://localhost/kohinoor/dashboard/editPackage/0
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Dashboard\load_pack_slider.ctp, line 1
+include - APP/Template\Dashboard\load_pack_slider.ctp, line 1
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::render() - CORE\src\View\View.php, line 587
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-04-29 10:58:59 Warning: Warning (2): include(E:\Ampps\www\kohinoor\src\../webroot/Common/package_slider.php) [<a href='http://php.net/function.include'>function.include</a>]: failed to open stream: No such file or directory in [E:\Ampps\www\kohinoor\src\Template\Dashboard\load_pack_slider.ctp, line 1]
+Request URL: /kohinoor/dashboard/loadPackSlider
+Referer URL: http://localhost/kohinoor/dashboard/editPackage/0
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Dashboard\load_pack_slider.ctp, line 1
+include - APP/Template\Dashboard\load_pack_slider.ctp, line 1
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::render() - CORE\src\View\View.php, line 587
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-04-29 10:58:59 Warning: Warning (2): include() [<a href='http://php.net/function.include'>function.include</a>]: Failed opening 'E:\Ampps\www\kohinoor\src\../webroot/Common/package_slider.php' for inclusion (include_path='.;C:\php\pear') in [E:\Ampps\www\kohinoor\src\Template\Dashboard\load_pack_slider.ctp, line 1]
+Request URL: /kohinoor/dashboard/loadPackSlider
+Referer URL: http://localhost/kohinoor/dashboard/editPackage/0
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Dashboard\load_pack_slider.ctp, line 1
+include - APP/Template\Dashboard\load_pack_slider.ctp, line 1
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::render() - CORE\src\View\View.php, line 587
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-04-29 11:01:52 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Admin_files could not be found.
+Exception Attributes: array (
+  'class' => 'Admin_files',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/admin_files/css/bootstrap.min.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 11:02:06 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/img/package/final/
+Referer URL: http://localhost/kohinoor/
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 11:02:18 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/img/package/resized/
+Referer URL: http://localhost/kohinoor/package/New-Package
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 11:03:12 Warning: Warning (2): include(E:\Ampps\www\kohinoor\src\../webroot/Common/package_slider.php): failed to open stream: No such file or directory in [E:\Ampps\www\kohinoor\src\Template\Dashboard\edit_package.ctp, line 110]
+Request URL: /kohinoor/dashboard/editPackage/12
+Referer URL: http://localhost/kohinoor/dashboard/packages
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Dashboard\edit_package.ctp, line 110
+include - APP/Template\Dashboard\edit_package.ctp, line 110
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::render() - CORE\src\View\View.php, line 587
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-04-29 11:03:12 Warning: Warning (2): include(E:\Ampps\www\kohinoor\src\../webroot/Common/package_slider.php) [<a href='http://php.net/function.include'>function.include</a>]: failed to open stream: No such file or directory in [E:\Ampps\www\kohinoor\src\Template\Dashboard\edit_package.ctp, line 110]
+Request URL: /kohinoor/dashboard/editPackage/12
+Referer URL: http://localhost/kohinoor/dashboard/packages
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Dashboard\edit_package.ctp, line 110
+include - APP/Template\Dashboard\edit_package.ctp, line 110
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::render() - CORE\src\View\View.php, line 587
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-04-29 11:03:12 Warning: Warning (2): include() [<a href='http://php.net/function.include'>function.include</a>]: Failed opening 'E:\Ampps\www\kohinoor\src\../webroot/Common/package_slider.php' for inclusion (include_path='.;C:\php\pear') in [E:\Ampps\www\kohinoor\src\Template\Dashboard\edit_package.ctp, line 110]
+Request URL: /kohinoor/dashboard/editPackage/12
+Referer URL: http://localhost/kohinoor/dashboard/packages
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Dashboard\edit_package.ctp, line 110
+include - APP/Template\Dashboard\edit_package.ctp, line 110
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::render() - CORE\src\View\View.php, line 587
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-04-29 11:03:17 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Admin_files could not be found.
+Exception Attributes: array (
+  'class' => 'Admin_files',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/admin_files/css/bootstrap.min.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 11:03:21 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Admin_files could not be found.
+Exception Attributes: array (
+  'class' => 'Admin_files',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/admin_files/css/bootstrap.min.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 11:03:24 Warning: Warning (2): include(E:\Ampps\www\kohinoor\src\../webroot/Common/package_slider.php): failed to open stream: No such file or directory in [E:\Ampps\www\kohinoor\src\Template\Dashboard\edit_package.ctp, line 110]
+Request URL: /kohinoor/dashboard/editPackage/2
+Referer URL: http://localhost/kohinoor/dashboard/packages
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Dashboard\edit_package.ctp, line 110
+include - APP/Template\Dashboard\edit_package.ctp, line 110
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::render() - CORE\src\View\View.php, line 587
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-04-29 11:03:24 Warning: Warning (2): include(E:\Ampps\www\kohinoor\src\../webroot/Common/package_slider.php) [<a href='http://php.net/function.include'>function.include</a>]: failed to open stream: No such file or directory in [E:\Ampps\www\kohinoor\src\Template\Dashboard\edit_package.ctp, line 110]
+Request URL: /kohinoor/dashboard/editPackage/2
+Referer URL: http://localhost/kohinoor/dashboard/packages
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Dashboard\edit_package.ctp, line 110
+include - APP/Template\Dashboard\edit_package.ctp, line 110
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::render() - CORE\src\View\View.php, line 587
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-04-29 11:03:24 Warning: Warning (2): include() [<a href='http://php.net/function.include'>function.include</a>]: Failed opening 'E:\Ampps\www\kohinoor\src\../webroot/Common/package_slider.php' for inclusion (include_path='.;C:\php\pear') in [E:\Ampps\www\kohinoor\src\Template\Dashboard\edit_package.ctp, line 110]
+Request URL: /kohinoor/dashboard/editPackage/2
+Referer URL: http://localhost/kohinoor/dashboard/packages
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Dashboard\edit_package.ctp, line 110
+include - APP/Template\Dashboard\edit_package.ctp, line 110
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 995
+Cake\View\View::_render() - CORE\src\View\View.php, line 955
+Cake\View\View::render() - CORE\src\View\View.php, line 587
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-04-29 11:03:30 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Admin_files could not be found.
+Exception Attributes: array (
+  'class' => 'Admin_files',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/admin_files/css/bootstrap.min.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 11:04:38 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Admin_files could not be found.
+Exception Attributes: array (
+  'class' => 'Admin_files',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/admin_files/css/bootstrap.min.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 11:06:32 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Admin_files could not be found.
+Exception Attributes: array (
+  'class' => 'Admin_files',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/admin_files/css/bootstrap.min.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 11:06:40 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/img/package/resized/
+Referer URL: http://localhost/kohinoor/package/New-Package
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 11:06:54 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/img/package/final/
+Referer URL: http://localhost/kohinoor/
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 11:08:08 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Admin_files could not be found.
+Exception Attributes: array (
+  'class' => 'Admin_files',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/admin_files/css/bootstrap.min.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 11:09:04 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Admin_files could not be found.
+Exception Attributes: array (
+  'class' => 'Admin_files',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/admin_files/css/bootstrap.min.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 11:09:14 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Admin_files could not be found.
+Exception Attributes: array (
+  'class' => 'Admin_files',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/admin_files/css/bootstrap.min.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 11:09:25 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Admin_files could not be found.
+Exception Attributes: array (
+  'class' => 'Admin_files',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/admin_files/css/bootstrap.min.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 11:09:33 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Admin_files could not be found.
+Exception Attributes: array (
+  'class' => 'Admin_files',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/admin_files/css/bootstrap.min.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 11:10:29 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Admin_files could not be found.
+Exception Attributes: array (
+  'class' => 'Admin_files',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/admin_files/css/bootstrap.min.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 11:11:29 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Admin_files could not be found.
+Exception Attributes: array (
+  'class' => 'Admin_files',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/admin_files/css/bootstrap.min.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 11:11:39 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Admin_files could not be found.
+Exception Attributes: array (
+  'class' => 'Admin_files',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/admin_files/css/bootstrap.min.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 11:11:48 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/img/package/final/
+Referer URL: http://localhost/kohinoor/search?keyword=new+&country=&Packages=1&pcat=&tcat=&days=
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 11:13:29 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Admin_files could not be found.
+Exception Attributes: array (
+  'class' => 'Admin_files',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/admin_files/css/bootstrap.min.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 11:13:47 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Admin_files could not be found.
+Exception Attributes: array (
+  'class' => 'Admin_files',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/admin_files/css/bootstrap.min.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 11:14:22 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Admin_files could not be found.
+Exception Attributes: array (
+  'class' => 'Admin_files',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/admin_files/css/bootstrap.min.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 11:15:44 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Admin_files could not be found.
+Exception Attributes: array (
+  'class' => 'Admin_files',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/admin_files/css/bootstrap.min.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 11:15:49 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Admin_files could not be found.
+Exception Attributes: array (
+  'class' => 'Admin_files',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/admin_files/css/bootstrap.min.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 11:16:19 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Admin_files could not be found.
+Exception Attributes: array (
+  'class' => 'Admin_files',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/admin_files/css/bootstrap.min.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 11:18:41 Error: [Cake\Network\Exception\SocketException] Could not send email: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+Request URL: /kohinoor/package/enquire?type=
+Referer URL: http://localhost/kohinoor/package/Bunzy-Jumping---Over-Bhote-Koshi
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\Mailer\Transport\MailTransport.php(55): Cake\Mailer\Transport\MailTransport->_mail('info@kodiary.co...', 'Package Enquiry', '--1954ca551ebf0...', 'From: "/kohinoo...', NULL)
+#1 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\Mailer\Email.php(1299): Cake\Mailer\Transport\MailTransport->send(Object(Cake\Mailer\Email))
+#2 E:\Ampps\www\kohinoor\src\Controller\PackageController.php(133): Cake\Mailer\Email->send('Hello Admin,<br...')
+#3 [internal function]: App\Controller\PackageController->enquire()
+#4 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#5 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PackageController))
+#7 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2017-04-29 11:18:45 Error: [Cake\Network\Exception\SocketException] Could not send email: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+Request URL: /kohinoor/package/enquire?type=
+Referer URL: http://localhost/kohinoor/package/Bunzy-Jumping---Over-Bhote-Koshi
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\Mailer\Transport\MailTransport.php(55): Cake\Mailer\Transport\MailTransport->_mail('info@kodiary.co...', 'Package Enquiry', '--91b6c26fa7005...', 'From: "/kohinoo...', NULL)
+#1 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\Mailer\Email.php(1299): Cake\Mailer\Transport\MailTransport->send(Object(Cake\Mailer\Email))
+#2 E:\Ampps\www\kohinoor\src\Controller\PackageController.php(133): Cake\Mailer\Email->send('Hello Admin,<br...')
+#3 [internal function]: App\Controller\PackageController->enquire()
+#4 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#5 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PackageController))
+#7 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2017-04-29 11:18:48 Error: [Cake\Network\Exception\SocketException] Could not send email: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+Request URL: /kohinoor/package/enquire?type=
+Referer URL: http://localhost/kohinoor/package/Bunzy-Jumping---Over-Bhote-Koshi
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\Mailer\Transport\MailTransport.php(55): Cake\Mailer\Transport\MailTransport->_mail('info@kodiary.co...', 'Package Enquiry', '--12537fbbe995d...', 'From: "/kohinoo...', NULL)
+#1 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\Mailer\Email.php(1299): Cake\Mailer\Transport\MailTransport->send(Object(Cake\Mailer\Email))
+#2 E:\Ampps\www\kohinoor\src\Controller\PackageController.php(133): Cake\Mailer\Email->send('Hello Admin,<br...')
+#3 [internal function]: App\Controller\PackageController->enquire()
+#4 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#5 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PackageController))
+#7 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2017-04-29 11:18:56 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/css/bootstrap.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 11:18:59 Error: [Cake\Network\Exception\SocketException] Could not send email: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+Request URL: /kohinoor/package/enquire?type=
+Referer URL: http://localhost/kohinoor/package/Bunzy-Jumping---Over-Bhote-Koshi
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\Mailer\Transport\MailTransport.php(55): Cake\Mailer\Transport\MailTransport->_mail('info@kodiary.co...', 'Package Enquiry', '--e74caa6c456b2...', 'From: "/kohinoo...', NULL)
+#1 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\Mailer\Email.php(1299): Cake\Mailer\Transport\MailTransport->send(Object(Cake\Mailer\Email))
+#2 E:\Ampps\www\kohinoor\src\Controller\PackageController.php(133): Cake\Mailer\Email->send('Hello Admin,<br...')
+#3 [internal function]: App\Controller\PackageController->enquire()
+#4 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#5 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 E:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PackageController))
+#7 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2017-04-29 11:20:16 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Admin_files could not be found.
+Exception Attributes: array (
+  'class' => 'Admin_files',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/admin_files/css/bootstrap.min.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 11:20:23 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Admin_files could not be found.
+Exception Attributes: array (
+  'class' => 'Admin_files',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/admin_files/css/bootstrap.min.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 11:20:44 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Admin_files could not be found.
+Exception Attributes: array (
+  'class' => 'Admin_files',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/admin_files/css/bootstrap.min.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 11:21:03 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Admin_files could not be found.
+Exception Attributes: array (
+  'class' => 'Admin_files',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/admin_files/css/bootstrap.min.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 11:21:07 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/js/head.min.js.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 11:21:15 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/css/bootstrap.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 11:21:46 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/js/head.min.js.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 11:21:51 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/css/bootstrap.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 11:25:20 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Admin_files could not be found.
+Exception Attributes: array (
+  'class' => 'Admin_files',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/admin_files/css/bootstrap.min.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 11:25:43 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Admin_files could not be found.
+Exception Attributes: array (
+  'class' => 'Admin_files',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/admin_files/css/bootstrap.min.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 11:27:37 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Admin_files could not be found.
+Exception Attributes: array (
+  'class' => 'Admin_files',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/admin_files/css/bootstrap.min.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 11:37:29 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/js/head.min.js.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 11:37:33 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/css/bootstrap.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 11:37:40 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/img/package/final/
+Referer URL: http://localhost/kohinoor/search?keyword=n&country=&Packages=1&Tours=1&pcat=&tcat=&days=
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 11:37:41 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/js/head.min.js.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 11:37:47 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/css/bootstrap.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 11:37:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/img/package/final/
+Referer URL: http://localhost/kohinoor/search?keyword=a&country=&Packages=1&Tours=1&pcat=&tcat=&days=
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 11:37:56 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/js/head.min.js.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 11:38:08 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/css/bootstrap.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 11:40:04 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/img/package/final/
+Referer URL: http://localhost/kohinoor/search?keyword=k&country=&Packages=1&Tours=1&pcat=&tcat=&days=
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 11:40:11 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/css/bootstrap.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 11:40:11 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/js/head.min.js.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 11:40:14 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/js/head.min.js.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 11:40:20 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/css/bootstrap.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 11:43:01 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/js/head.min.js.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 11:43:06 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/css/bootstrap.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
