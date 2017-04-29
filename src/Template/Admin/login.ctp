@@ -45,7 +45,7 @@
     <div id="wrapper">
       
       <div id="login" class="animate form">
-        <img class="admin-logo" src="<?php echo $this->request->webroot;?>new_layout/images/logo.png" />
+        <img class="admin-logo" src="<?php echo $this->request->webroot;?>new_layout/images/kohinoor4.png" />
         <section class="login_content">
           <form action="" method="post">
             

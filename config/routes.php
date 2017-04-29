@@ -53,6 +53,9 @@ Router::scope('/', function (RouteBuilder $routes) {
     $routes->connect('/dashboard', ['controller' => 'Dashboard']);
     $routes->connect('/search/*', ['controller' => 'Search','action'=>'index']);
     
+    $routes->connect('/blog/view/*', ['controller' => 'Blog','action'=>'view']);
+    $routes->connect('/blog/*', ['controller' => 'Blog','action'=>'index']);
+        
     $routes->connect('/package/enquire', ['controller' => 'Package', 'action' => 'enquire']);
     $routes->connect('/package/*', ['controller' => 'Package', 'action' => 'index']);
     $routes->connect('/admin', ['controller' => 'Admin', 'action' => 'index']);

@@ -55,7 +55,7 @@
         <div class="left_col scroll-view">
 
           <div class="navbar nav_title" style="border: 0;">
-            <a href="<?php echo $this->request->webroot;?>admin_files/index.html" class="site_title"><img class="admin-logo" src="<?php echo $this->request->webroot;?>new_layout/images/logo.png" /></a>
+            <a href="<?php echo $this->request->webroot;?>admin_files/index.html" class="site_title"><img class="admin-logo" width="75%" src="<?php echo $this->request->webroot;?>new_layout/images/kohinoor4.png" /></a>
           </div>
           <div class="clearfix"></div>
 
@@ -93,7 +93,7 @@
                     <li><a href="<?php echo $this->request->webroot;?>dashboard/editPackage/0">Add Packages</a>
                     </li>
                   </ul>
-                </li><!--
+                </li>
                 <li><a class="parentnav"><i class="fa fa-gift"></i> Tour Manager <span class="fa fa-chevron-down"></span></a>
                   <ul class="nav child_menu" style="display: none">
                     <li><a href="<?php echo $this->request->webroot;?>dashboard/tourCat">List Category</a>
@@ -130,7 +130,7 @@
                     <li><a href="<?php echo $this->request->webroot;?>dashboard/editBlog/0">Add Blog</a>
                     </li>
                   </ul>
-                </li>-->
+                </li>
                 
               </ul>
             </div>
@@ -153,7 +153,7 @@
             <ul class="nav navbar-nav navbar-right">
               <li class="">
                 <a href="<?php echo $this->request->webroot;?>admin_files/javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                  <img src="<?php echo $this->request->webroot;?>admin_files/images/img.jpg" alt="">Admin
+                  Admin
                   <span class=" fa fa-angle-down"></span>
                 </a>
                 <ul class="dropdown-menu dropdown-usermenu pull-right">

@@ -19,11 +19,11 @@
 				<a class="toggleMenu" href="#">Menu</a>
 				<ul class="nav">
 					<li class="active"><a href="<?php echo $this->request->webroot;?>" data-hover="Home">Home</a></li>
-					<li><a href="<?php echo $this->request->webroot;?>" data-hover="About Us">About Us</a></li>
+					<li><a href="<?php echo $this->request->webroot;?>pages/view/about-us" data-hover="About Us">About Us</a></li>
 					<li><a href="<?php echo $this->request->webroot;?>" data-hover="Packages">Packages</a></li>
 					<li><a href="<?php echo $this->request->webroot;?>" data-hover="Tours">Tours</a></li>
 					<li><a href="<?php echo $this->request->webroot;?>" data-hover="Company Profile">Company Profile</a></li>
-					<li><a href="<?php echo $this->request->webroot;?>" data-hover="Blog">Blog</a></li>
+					<li><a href="<?php echo $this->request->webroot;?>blog" data-hover="Blog">Blog</a></li>
 					<li><a href="<?php echo $this->request->webroot;?>" data-hover="Contact Us">Contact Us</a></li>
 				 </ul>
 				 <script type="text/javascript" src="<?php echo $this->request->webroot;?>new_layout/js/nav.js"></script>

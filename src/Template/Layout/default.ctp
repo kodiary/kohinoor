@@ -85,18 +85,59 @@ use Cake\ORM\TableRegistry;
   </div>
 </div>
 <div class="main">
-  <div class="content_top">
-  	<div class="container">
-	   <?php include(APP.'../webroot/Common/sidebar.php');?>
-	   <div class="col-md-9 content_right">
-       <?php
-        echo $this->Flash->render();
-        echo $this->fetch('content');
-        ?>
+    <div class="content_top">
+        <div class="container">
+	       <?php include(APP.'../webroot/Common/sidebar.php');?>
+	       <div class="col-md-9 content_right">
+           <?php
+            echo $this->Flash->render();
+            echo $this->fetch('content');
+            ?>
 	   	 
-       </div>
-	  </div>  	    
-	</div>
+            </div>
+            <div class="clearfix"></div>
+    <?php if($this->request->params['action']!='videos'){?>
+      <div class="videos container">
+          <h4><a href="<?= $this->request->webroot;?>pages/videos">VIDEOS</a></h4>
+          <?php
+          $cond = '';
+          if(isset($pcat) && count($pcat))
+          {
+            if(isset($pcat) && count($pcat))
+            {
+                foreach($pcat as $pc)
+                {
+                    if($cond == '')
+                    $cond = 'package_id = '.$pc;
+                    else
+                    $cond = $cond.' OR '. 'package_id = '.$pc;
+                }
+            }
+            
+          }
+          if($cond)
+          {
+            $sql = "SELECT video_id FROM tags WHERE ".$cond;
+            $videos = TableRegistry::get('Videos')->find()->where(['id IN ('.$sql.')'])->order('rand()')->limit(4)->all();
+          }
+          else
+            $videos = TableRegistry::get('Videos')->find()->order('rand()')->limit(4)->all();
+          foreach($videos as $v)
+          {
+            $embed_arr = explode('=',$v->youtube);
+            $code = end($embed_arr);
+            ?>
+            <div class="col-md-3">
+              <iframe style="width:100%;" src="https://www.youtube.com/embed/<?php echo $code;?>" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <?php
+          }
+          ?>
+          <div class="clearfix"></div>
+      </div>
+          <?php }?>
+        </div>
+    </div>  	    
 </div>
 <div class="footer_bg">
 </div>
@@ -104,7 +145,7 @@ use Cake\ORM\TableRegistry;
 	<div class="container">
 		<div class="col-md-3 f_grid1">
 			<h3>About</h3>
-			<a href="#"><img src="<?php echo $this->request->webroot;?>new_layout/images/logo.png" alt="" style="max-width: 100%;"/></a>
+			<a href="#"><img src="<?php echo $this->request->webroot;?>new_layout/images/kohinoor4.png" alt="" style="max-width: 100%;"/></a>
 			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
 		</div>
 		<div class="col-md-3 f_grid1 f_grid2">

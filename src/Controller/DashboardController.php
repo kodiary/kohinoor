@@ -870,7 +870,7 @@ class DashboardController extends AppController
         $this->set('package', $packid);
         $tourid = $this->TourCategory->find()->all();
         //$this->set('tour', $tourid);
-        //$tagid = $this->Tags->find()->where(['blog_id'=>$id])->all();
+        $tagid = $this->Tags->find()->where(['blog_id'=>$id])->all();
         $this->set('tag', $tagid);
         
         if($id)   { 

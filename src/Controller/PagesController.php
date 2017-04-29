@@ -76,6 +76,24 @@ class PagesController extends AppController
         $this->set('page',$q);
         
     }
+    function team(){
+        $model = TableRegistry::get('teams')->find()->where(['is_testimonial'=>'0'])->all();
+        $this->set('model',$model);
+    }
+    function testimonial($id=null){
+        if(isset($id)&& $id != '')
+            $model = TableRegistry::get('teams')->find()->where(['id'=>$id])->first();
+        else
+            $model = TableRegistry::get('teams')->find()->where(['is_testimonial'=>'1'])->all();
+        $this->set('model',$model);
+        if(!isset($id))
+            $this->render('team');
+    }
+    function videos()
+    {
+        $model = $this->paginate('videos');
+        $this->set('model',$model);
+    }
     function contactus()
     {
         $model = TableRegistry::get('Pages');
@@ -103,4 +121,5 @@ class PagesController extends AppController
         if($q)
         $this->set('page',$q);
     }
+    
 }

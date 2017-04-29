@@ -227,7 +227,7 @@ return [
              */
             //'port' => 'non_standard_port_number',
             'username' => 'root',
-            'password' => '',
+            'password' => 'mysql',
             'database' => 'kohinoor',
             'encoding' => 'utf8',
             'timezone' => 'UTC',
