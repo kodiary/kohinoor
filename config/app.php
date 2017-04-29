@@ -1,4 +1,15 @@
 <?php
+if($_SERVER['SERVER_NAME']=='localhost')
+{
+$db_user = 'root';
+$db_pass = 'mysql';
+$db_name = 'kohinoor';
+}
+else{
+$db_user = 'greatkoh_1';
+$db_pass = 'vqT[#09SM^%p';
+$db_name = 'greatkoh_1';
+}
 return [
     /**
      * Debug Level:
@@ -9,7 +20,7 @@ return [
      * Development Mode:
      * true: Errors and warnings shown.
      */
-    'debug' => true,
+    'debug' => false,
 
     /**
      * Configure basic information about the application.
@@ -226,9 +237,9 @@ return [
              * the following line and set the port accordingly
              */
             //'port' => 'non_standard_port_number',
-            'username' => 'root',
-            'password' => 'mysql',
-            'database' => 'kohinoor',
+            'username' => $db_user,
+            'password' => $db_pass,
+            'database' => $db_name,
             'encoding' => 'utf8',
             'timezone' => 'UTC',
             'flags' => [],
