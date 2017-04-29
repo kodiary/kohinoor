@@ -15,6 +15,8 @@ if(isset($_GET['days']))
 {
     $days = $_GET['days'];
 }
+else
+$days = '';
 ?>
      <h3 class="menu_head">Advance search</h3>
      <form method="get" action="<?php echo $this->request->webroot;?>search" style="background: #FFF;padding:10px;">

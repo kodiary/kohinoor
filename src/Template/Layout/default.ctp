@@ -93,12 +93,15 @@ use Cake\ORM\TableRegistry;
             echo $this->Flash->render();
             echo $this->fetch('content');
             ?>
-	   	 
+	   	     </div>
             </div>
             <div class="clearfix"></div>
     <?php if($this->request->params['action']!='videos'){?>
-      <div class="videos container">
+      <div class="videos 123">
+        <div class="container">
+
           <h4><a href="<?= $this->request->webroot;?>pages/videos">VIDEOS</a></h4>
+          <div class="row">
           <?php
           $cond = '';
           if(isset($pcat) && count($pcat))
@@ -134,6 +137,8 @@ use Cake\ORM\TableRegistry;
           }
           ?>
           <div class="clearfix"></div>
+          </div>
+          </div>
       </div>
           <?php }?>
         </div>

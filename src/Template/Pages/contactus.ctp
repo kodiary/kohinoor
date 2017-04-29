@@ -6,15 +6,15 @@
     </style>
 
 <ul class="breadcrumb">
-<li>
-<a href="<?php echo $this->request->webroot;?>">Home</a>
-</li>
-<li class="active"><?php echo $page->title;?></li>
+  <li>
+  <a href="<?php echo $this->request->webroot;?>">Home</a>
+  </li>
+  <li class="active"><?php echo $page->title;?></li>
 </ul>
 <h2 class="common"><?php echo $page->title;?></h2>
 
 <div class="col-md-12">
-<div id="map"></div>
+  <div id="map"></div>
 </div>
 <div class="clearfix"></div>
 <div class="common">
@@ -23,7 +23,7 @@
 </div>
 <div class="common">
 <form method="post" class="enuire_package" >
-<input type="hidden" name="cap" value=""/>
+  <input type="hidden" name="cap" value=""/>
   <div class="form-group col-md-6">
     <label class="col-md-16 padding-left-0">Full Name</label>
     <div class="col-md-12 padding-left-0"><input type="text" class="form-control" name="name" required="required" /></div>
@@ -49,7 +49,7 @@
   </div>
   <div class="clearfix"></div>
   <div class="form-group col-md-12 row">
-  <input type="submit" class="btn btn-info" value="Submit"/>
+    <input type="submit" class="btn btn-info" value="Submit"/>
   </div>
 </form>
 </div>

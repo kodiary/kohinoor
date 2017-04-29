@@ -3977,3 +3977,70 @@ Stack Trace:
 #1 {main}
 
 
+2017-04-29 09:11:14 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/css/bootstrap.css.map
+Stack Trace:
+#0 D:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 09:16:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/css/bootstrap.css.map
+Stack Trace:
+#0 D:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 09:18:34 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/css/bootstrap.css.map
+Stack Trace:
+#0 D:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 09:20:46 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /kohinoor/new_layout/css/bootstrap.css.map
+Stack Trace:
+#0 D:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-29 09:32:32 Error: [Cake\Controller\Exception\MissingActionException] Action PagesController::contact() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'contact',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /kohinoor/pages/contact
+Stack Trace:
+#0 D:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\Ampps\www\kohinoor\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#2 D:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
