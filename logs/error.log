@@ -6914,3 +6914,101 @@ Stack Trace:
 #1 {main}
 
 
+2017-04-30 13:51:21 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Assets could not be found.
+Request URL: /kohinoor/assets/frontend/pages/img/layerslider/179351_222961.jpg
+Referer URL: http://localhost/kohinoor/
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-30 13:51:21 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Request URL: /kohinoor/img/members/715637_224945.jpg
+Referer URL: http://localhost/kohinoor/
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-30 13:51:21 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Request URL: /kohinoor/new_layout/js/head.min.js.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-30 13:51:21 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Assets could not be found.
+Request URL: /kohinoor/assets/frontend/pages/img/layerslider/179351_222961.jpg
+Referer URL: http://localhost/kohinoor/
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-30 13:51:22 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Request URL: /kohinoor/img/members/715637_224945.jpg
+Referer URL: http://localhost/kohinoor/
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-30 13:51:25 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Request URL: /kohinoor/new_layout/css/bootstrap.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-30 13:53:34 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Assets could not be found.
+Request URL: /kohinoor/assets/frontend/pages/img/layerslider/179351_222961.jpg
+Referer URL: http://localhost/kohinoor/
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-30 13:53:34 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Request URL: /kohinoor/img/members/715637_224945.jpg
+Referer URL: http://localhost/kohinoor/
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-30 13:53:34 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Request URL: /kohinoor/new_layout/js/head.min.js.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-30 13:53:35 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Request URL: /kohinoor/new_layout/css/bootstrap.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-30 13:53:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Request URL: /kohinoor/img/members/715637_224945.jpg
+Referer URL: http://localhost/kohinoor/search?keyword=a
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-30 13:53:51 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Request URL: /kohinoor/new_layout/js/head.min.js.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-30 13:53:53 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Request URL: /kohinoor/new_layout/css/bootstrap.css.map
+Stack Trace:
+#0 E:\Ampps\www\kohinoor\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+

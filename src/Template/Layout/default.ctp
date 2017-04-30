@@ -75,10 +75,12 @@ use Cake\ORM\TableRegistry;
   <div class="container">
 	<div class="search col-md-5">
 	  <div class="stay">Search Package</div>
-	  <div class="stay_right">
-		  <input type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}">
+      <form action="<?php echo $this->request->webroot;?>search" method="get">
+	   <div class="stay_right">
+		  <input type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}" name="keyword">
 		  <input type="submit" value="">
 	  </div>
+      </form>
 	  <div class="clearfix"> </div>
 	</div>
     <div class="clearfix"> </div>
