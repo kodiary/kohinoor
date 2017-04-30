@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+  
   <!-- Meta, title, CSS, favicons, etc. -->
-  <meta charset="utf-8">
+  
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -43,15 +43,13 @@
     <a class="hiddenanchor" id="tologin"></a>
 
     <div id="wrapper">
-      
       <div id="login" class="animate form">
-        <img class="admin-logo" src="<?php echo $this->request->webroot;?>new_layout/images/kohinoor4.png" />
         <section class="login_content">
           <form action="" method="post">
-            
+            <h1>Login Form</h1>
             <div>
               <input type="text" class="form-control" placeholder="Username" required="" name="username" />
-            </div> 
+            </div>
             <div>
               <input type="password" class="form-control" placeholder="Password" required="" name="password" />
             </div>
@@ -82,9 +80,9 @@
 
               
               <div>
-                
+                <h1><img src="<?php echo $this->request->webroot;?>new_layout/images/kohinoor4.png" width="100%" /></h1>
 
-                <p>©2016 All Rights Reserved. Kodiary</p>
+                <p>&copy; 2016 All Rights Reserved. Kodiary</p>
               </div>
             </div>
         </div>
