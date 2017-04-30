@@ -6381,3 +6381,697 @@ Stack Trace:
 #1 {main}
 
 
+2017-04-29 15:32:55 Warning: Warning (512): /home/greatkohinoor/public_html/tmp/cache/persistent/ is not writable in [/home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 429]
+Request URL: /
+Client IP: 110.44.124.104
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+Cake\Cache\Engine\FileEngine::_active() - CORE/src/Cache/Engine/FileEngine.php, line 429
+Cake\Cache\Engine\FileEngine::init() - CORE/src/Cache/Engine/FileEngine.php, line 105
+Cake\Cache\CacheRegistry::_create() - CORE/src/Cache/CacheRegistry.php, line 89
+Cake\Core\ObjectRegistry::load() - CORE/src/Core/ObjectRegistry.php, line 93
+DebugKit\Cache\Engine\DebugEngine::init() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 79
+Cake\Cache\CacheRegistry::_create() - CORE/src/Cache/CacheRegistry.php, line 89
+Cake\Core\ObjectRegistry::load() - CORE/src/Core/ObjectRegistry.php, line 93
+Cake\Cache\Cache::_buildEngine() - CORE/src/Cache/Cache.php, line 154
+Cake\Cache\Cache::engine() - CORE/src/Cache/Cache.php, line 186
+Cake\I18n\I18n::translators() - CORE/src/I18n/I18n.php, line 80
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 137
+__d - CORE/src/I18n/functions.php, line 81
+DebugKit\Panel\TimerPanel::DebugKit\Panel\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php, line 54
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 407
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 373
+Cake\Controller\Controller::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE/src/Controller/Controller.php, line 491
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-04-29 15:32:55 Error: [RuntimeException] Cache engine Cake\Cache\Engine\FileEngine is not properly configured.
+Request URL: /
+Client IP: 110.44.124.104
+Stack Trace:
+#0 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(93): Cake\Cache\CacheRegistry->_create('Cake\\Cache\\Engi...', 'spies', Array)
+#1 /home/greatkohinoor/public_html/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php(79): Cake\Core\ObjectRegistry->load('spies', Array)
+#2 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Cache/CacheRegistry.php(89): DebugKit\Cache\Engine\DebugEngine->init(Array)
+#3 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(93): Cake\Cache\CacheRegistry->_create(Object(DebugKit\Cache\Engine\DebugEngine), '_cake_core_', Array)
+#4 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Cache/Cache.php(154): Cake\Core\ObjectRegistry->load('_cake_core_', Array)
+#5 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Cache/Cache.php(186): Cake\Cache\Cache::_buildEngine('_cake_core_')
+#6 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/I18n/I18n.php(80): Cake\Cache\Cache::engine('_cake_core_')
+#7 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/I18n/I18n.php(137): Cake\I18n\I18n::translators()
+#8 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/I18n/functions.php(81): Cake\I18n\I18n::translator('debug_kit')
+#9 /home/greatkohinoor/public_html/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php(54): __d('debug_kit', 'Controller init...')
+#10 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Event/EventManager.php(407): DebugKit\Panel\TimerPanel->DebugKit\Panel\{closure}(Object(Cake\Event\Event))
+#11 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Event/EventManager.php(373): Cake\Event\EventManager->_callListener(Object(Closure), Object(Cake\Event\Event))
+#12 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#13 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Controller/Controller.php(491): Cake\Controller\Controller->dispatchEvent('Controller.init...')
+#14 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#15 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#16 /home/greatkohinoor/public_html/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#17 {main}
+
+
+2017-04-29 15:33:48 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'greatkoh_1.members' doesn't exist
+Request URL: /
+Client IP: 110.44.124.104
+Stack Trace:
+#0 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'members', Array, Object(Cake\Database\Schema\Table))
+#1 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(64): Cake\Database\Schema\Collection->describe('members', Array)
+#2 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/ORM/Table.php(430): Cake\Database\Schema\CachedCollection->describe('members')
+#3 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/ORM/Query.php(211): Cake\ORM\Table->schema()
+#4 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/ORM/Query.php(169): Cake\ORM\Query->addDefaultTypes(Object(Cake\ORM\Table))
+#5 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/ORM/Table.php(1243): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(Cake\ORM\Table))
+#6 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/ORM/Table.php(946): Cake\ORM\Table->query()
+#7 /home/greatkohinoor/public_html/src/Template/Layout/default.ctp(185): Cake\ORM\Table->find()
+#8 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/View/View.php(995): include('/home/greatkohi...')
+#9 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/View/View.php(955): Cake\View\View->_evaluate('/home/greatkohi...', Array)
+#10 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/View/View.php(633): Cake\View\View->_render('/home/greatkohi...')
+#11 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/View/View.php(592): Cake\View\View->renderLayout('', 'default')
+#12 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#13 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#14 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#15 /home/greatkohinoor/public_html/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2017-04-29 15:34:37 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'greatkoh_1.members' doesn't exist
+Request URL: /
+Client IP: 110.44.124.104
+Stack Trace:
+#0 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'members', Array, Object(Cake\Database\Schema\Table))
+#1 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(64): Cake\Database\Schema\Collection->describe('members', Array)
+#2 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/ORM/Table.php(430): Cake\Database\Schema\CachedCollection->describe('members')
+#3 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/ORM/Query.php(211): Cake\ORM\Table->schema()
+#4 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/ORM/Query.php(169): Cake\ORM\Query->addDefaultTypes(Object(Cake\ORM\Table))
+#5 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/ORM/Table.php(1243): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(Cake\ORM\Table))
+#6 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/ORM/Table.php(946): Cake\ORM\Table->query()
+#7 /home/greatkohinoor/public_html/src/Template/Layout/default.ctp(185): Cake\ORM\Table->find()
+#8 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/View/View.php(995): include('/home/greatkohi...')
+#9 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/View/View.php(955): Cake\View\View->_evaluate('/home/greatkohi...', Array)
+#10 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/View/View.php(633): Cake\View\View->_render('/home/greatkohi...')
+#11 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/View/View.php(592): Cake\View\View->renderLayout('', 'default')
+#12 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#13 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#14 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#15 /home/greatkohinoor/public_html/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2017-04-29 15:34:41 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'greatkoh_1.members' doesn't exist
+Request URL: /
+Client IP: 110.44.124.104
+Stack Trace:
+#0 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'members', Array, Object(Cake\Database\Schema\Table))
+#1 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(64): Cake\Database\Schema\Collection->describe('members', Array)
+#2 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/ORM/Table.php(430): Cake\Database\Schema\CachedCollection->describe('members')
+#3 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/ORM/Query.php(211): Cake\ORM\Table->schema()
+#4 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/ORM/Query.php(169): Cake\ORM\Query->addDefaultTypes(Object(Cake\ORM\Table))
+#5 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/ORM/Table.php(1243): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(Cake\ORM\Table))
+#6 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/ORM/Table.php(946): Cake\ORM\Table->query()
+#7 /home/greatkohinoor/public_html/src/Template/Layout/default.ctp(185): Cake\ORM\Table->find()
+#8 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/View/View.php(995): include('/home/greatkohi...')
+#9 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/View/View.php(955): Cake\View\View->_evaluate('/home/greatkohi...', Array)
+#10 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/View/View.php(633): Cake\View\View->_render('/home/greatkohi...')
+#11 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/View/View.php(592): Cake\View\View->renderLayout('', 'default')
+#12 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#13 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#14 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#15 /home/greatkohinoor/public_html/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2017-04-29 15:36:19 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'greatkoh_1.members' doesn't exist
+Request URL: /
+Client IP: 110.44.124.104
+Stack Trace:
+#0 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'members', Array, Object(Cake\Database\Schema\Table))
+#1 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(64): Cake\Database\Schema\Collection->describe('members', Array)
+#2 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/ORM/Table.php(430): Cake\Database\Schema\CachedCollection->describe('members')
+#3 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/ORM/Query.php(211): Cake\ORM\Table->schema()
+#4 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/ORM/Query.php(169): Cake\ORM\Query->addDefaultTypes(Object(Cake\ORM\Table))
+#5 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/ORM/Table.php(1243): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(Cake\ORM\Table))
+#6 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/ORM/Table.php(946): Cake\ORM\Table->query()
+#7 /home/greatkohinoor/public_html/src/Template/Layout/default.ctp(185): Cake\ORM\Table->find()
+#8 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/View/View.php(995): include('/home/greatkohi...')
+#9 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/View/View.php(955): Cake\View\View->_evaluate('/home/greatkohi...', Array)
+#10 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/View/View.php(633): Cake\View\View->_render('/home/greatkohi...')
+#11 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/View/View.php(592): Cake\View\View->renderLayout('', 'default')
+#12 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#13 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#14 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#15 /home/greatkohinoor/public_html/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2017-04-29 20:43:35 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'greatkoh_1.members' doesn't exist
+Request URL: /
+Client IP: 180.76.15.149
+Stack Trace:
+#0 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'members', Array, Object(Cake\Database\Schema\Table))
+#1 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(64): Cake\Database\Schema\Collection->describe('members', Array)
+#2 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/ORM/Table.php(430): Cake\Database\Schema\CachedCollection->describe('members')
+#3 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/ORM/Query.php(211): Cake\ORM\Table->schema()
+#4 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/ORM/Query.php(169): Cake\ORM\Query->addDefaultTypes(Object(Cake\ORM\Table))
+#5 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/ORM/Table.php(1243): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(Cake\ORM\Table))
+#6 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/ORM/Table.php(946): Cake\ORM\Table->query()
+#7 /home/greatkohinoor/public_html/src/Template/Layout/default.ctp(185): Cake\ORM\Table->find()
+#8 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/View/View.php(995): include('/home/greatkohi...')
+#9 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/View/View.php(955): Cake\View\View->_evaluate('/home/greatkohi...', Array)
+#10 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/View/View.php(633): Cake\View\View->_render('/home/greatkohi...')
+#11 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/View/View.php(592): Cake\View\View->renderLayout('', 'default')
+#12 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#13 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#14 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#15 /home/greatkohinoor/public_html/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2017-04-29 21:16:55 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'greatkoh_1.members' doesn't exist
+Request URL: /
+Client IP: 202.46.54.144
+Stack Trace:
+#0 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'members', Array, Object(Cake\Database\Schema\Table))
+#1 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(64): Cake\Database\Schema\Collection->describe('members', Array)
+#2 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/ORM/Table.php(430): Cake\Database\Schema\CachedCollection->describe('members')
+#3 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/ORM/Query.php(211): Cake\ORM\Table->schema()
+#4 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/ORM/Query.php(169): Cake\ORM\Query->addDefaultTypes(Object(Cake\ORM\Table))
+#5 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/ORM/Table.php(1243): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(Cake\ORM\Table))
+#6 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/ORM/Table.php(946): Cake\ORM\Table->query()
+#7 /home/greatkohinoor/public_html/src/Template/Layout/default.ctp(185): Cake\ORM\Table->find()
+#8 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/View/View.php(995): include('/home/greatkohi...')
+#9 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/View/View.php(955): Cake\View\View->_evaluate('/home/greatkohi...', Array)
+#10 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/View/View.php(633): Cake\View\View->_render('/home/greatkohi...')
+#11 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/View/View.php(592): Cake\View\View->renderLayout('', 'default')
+#12 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#13 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#14 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#15 /home/greatkohinoor/public_html/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2017-04-29 21:50:16 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'greatkoh_1.members' doesn't exist
+Request URL: /
+Client IP: 104.193.88.244
+Stack Trace:
+#0 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'members', Array, Object(Cake\Database\Schema\Table))
+#1 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(64): Cake\Database\Schema\Collection->describe('members', Array)
+#2 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/ORM/Table.php(430): Cake\Database\Schema\CachedCollection->describe('members')
+#3 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/ORM/Query.php(211): Cake\ORM\Table->schema()
+#4 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/ORM/Query.php(169): Cake\ORM\Query->addDefaultTypes(Object(Cake\ORM\Table))
+#5 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/ORM/Table.php(1243): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(Cake\ORM\Table))
+#6 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/ORM/Table.php(946): Cake\ORM\Table->query()
+#7 /home/greatkohinoor/public_html/src/Template/Layout/default.ctp(185): Cake\ORM\Table->find()
+#8 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/View/View.php(995): include('/home/greatkohi...')
+#9 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/View/View.php(955): Cake\View\View->_evaluate('/home/greatkohi...', Array)
+#10 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/View/View.php(633): Cake\View\View->_render('/home/greatkohi...')
+#11 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/View/View.php(592): Cake\View\View->renderLayout('', 'default')
+#12 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#13 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#14 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#15 /home/greatkohinoor/public_html/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2017-04-30 01:16:05 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Robots.txt could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txt',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /robots.txt
+Client IP: 40.77.167.180
+Stack Trace:
+#0 /home/greatkohinoor/public_html/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-30 01:16:07 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'greatkoh_1.members' doesn't exist
+Request URL: /
+Client IP: 157.55.39.227
+Stack Trace:
+#0 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'members', Array, Object(Cake\Database\Schema\Table))
+#1 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(64): Cake\Database\Schema\Collection->describe('members', Array)
+#2 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/ORM/Table.php(430): Cake\Database\Schema\CachedCollection->describe('members')
+#3 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/ORM/Query.php(211): Cake\ORM\Table->schema()
+#4 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/ORM/Query.php(169): Cake\ORM\Query->addDefaultTypes(Object(Cake\ORM\Table))
+#5 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/ORM/Table.php(1243): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(Cake\ORM\Table))
+#6 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/ORM/Table.php(946): Cake\ORM\Table->query()
+#7 /home/greatkohinoor/public_html/src/Template/Layout/default.ctp(185): Cake\ORM\Table->find()
+#8 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/View/View.php(995): include('/home/greatkohi...')
+#9 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/View/View.php(955): Cake\View\View->_evaluate('/home/greatkohi...', Array)
+#10 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/View/View.php(633): Cake\View\View->_render('/home/greatkohi...')
+#11 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/View/View.php(592): Cake\View\View->renderLayout('', 'default')
+#12 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#13 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#14 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#15 /home/greatkohinoor/public_html/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2017-04-30 02:54:38 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'greatkoh_1.members' doesn't exist
+Request URL: /
+Referer URL: http://pizza-imperia.com/
+Client IP: 192.160.102.164
+Stack Trace:
+#0 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'members', Array, Object(Cake\Database\Schema\Table))
+#1 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(64): Cake\Database\Schema\Collection->describe('members', Array)
+#2 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/ORM/Table.php(430): Cake\Database\Schema\CachedCollection->describe('members')
+#3 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/ORM/Query.php(211): Cake\ORM\Table->schema()
+#4 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/ORM/Query.php(169): Cake\ORM\Query->addDefaultTypes(Object(Cake\ORM\Table))
+#5 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/ORM/Table.php(1243): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(Cake\ORM\Table))
+#6 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/ORM/Table.php(946): Cake\ORM\Table->query()
+#7 /home/greatkohinoor/public_html/src/Template/Layout/default.ctp(185): Cake\ORM\Table->find()
+#8 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/View/View.php(995): include('/home/greatkohi...')
+#9 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/View/View.php(955): Cake\View\View->_evaluate('/home/greatkohi...', Array)
+#10 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/View/View.php(633): Cake\View\View->_render('/home/greatkohi...')
+#11 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/View/View.php(592): Cake\View\View->renderLayout('', 'default')
+#12 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#13 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#14 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#15 /home/greatkohinoor/public_html/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2017-04-30 04:12:08 Error: [Cake\Routing\Exception\MissingControllerException] Controller class EC885A998C233119E5CD099954AE8AF3.txt could not be found.
+Exception Attributes: array (
+  'class' => 'EC885A998C233119E5CD099954AE8AF3.txt',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /EC885A998C233119E5CD099954AE8AF3.txt
+Client IP: 23.91.67.55
+Stack Trace:
+#0 /home/greatkohinoor/public_html/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-30 04:12:08 Error: [Cake\Routing\Exception\MissingControllerException] Controller class 994BC752E12C74C7FAA47188AD0044B4.txt could not be found.
+Exception Attributes: array (
+  'class' => '994BC752E12C74C7FAA47188AD0044B4.txt',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /994BC752E12C74C7FAA47188AD0044B4.txt
+Client IP: 23.91.67.55
+Stack Trace:
+#0 /home/greatkohinoor/public_html/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-30 04:12:08 Error: [Cake\Routing\Exception\MissingControllerException] Controller class E94155CF44BDFE48F617C5A2A678748F.txt could not be found.
+Exception Attributes: array (
+  'class' => 'E94155CF44BDFE48F617C5A2A678748F.txt',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /E94155CF44BDFE48F617C5A2A678748F.txt
+Client IP: 23.91.67.55
+Stack Trace:
+#0 /home/greatkohinoor/public_html/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-30 09:24:44 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'greatkoh_1.members' doesn't exist
+Request URL: /
+Client IP: 157.55.39.158
+Stack Trace:
+#0 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'members', Array, Object(Cake\Database\Schema\Table))
+#1 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(64): Cake\Database\Schema\Collection->describe('members', Array)
+#2 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/ORM/Table.php(430): Cake\Database\Schema\CachedCollection->describe('members')
+#3 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/ORM/Query.php(211): Cake\ORM\Table->schema()
+#4 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/ORM/Query.php(169): Cake\ORM\Query->addDefaultTypes(Object(Cake\ORM\Table))
+#5 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/ORM/Table.php(1243): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(Cake\ORM\Table))
+#6 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/ORM/Table.php(946): Cake\ORM\Table->query()
+#7 /home/greatkohinoor/public_html/src/Template/Layout/default.ctp(185): Cake\ORM\Table->find()
+#8 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/View/View.php(995): include('/home/greatkohi...')
+#9 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/View/View.php(955): Cake\View\View->_evaluate('/home/greatkohi...', Array)
+#10 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/View/View.php(633): Cake\View\View->_render('/home/greatkohi...')
+#11 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/View/View.php(592): Cake\View\View->renderLayout('', 'default')
+#12 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#13 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#14 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#15 /home/greatkohinoor/public_html/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2017-04-30 12:42:10 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Favicon.ico could not be found.
+Exception Attributes: array (
+  'class' => 'Favicon.ico',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /favicon.ico
+Client IP: 27.34.16.85
+Stack Trace:
+#0 /home/greatkohinoor/public_html/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-30 12:43:37 Warning: Warning (2): move_uploaded_file(/home/greatkohinoor/public_html/src/../webroot/img/tour/tmp/img511_2017_04_30_12_43_37.jpg): failed to open stream: Permission denied in [/home/greatkohinoor/public_html/src/Controller/DashboardController.php, line 445]
+Request URL: /dashboard/fileUpload?type=tour
+Referer URL: http://www.greatkohinoorhimalaya.com/dashboard/editTour/6
+Client IP: 27.34.16.85
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+move_uploaded_file - [internal], line ??
+App\Controller\DashboardController::fileUpload() - APP/Controller/DashboardController.php, line 445
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-04-30 12:43:37 Warning: Warning (2): move_uploaded_file() [<a href='http://php.net/function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/tmp/php2hofiO' to '/home/greatkohinoor/public_html/src/../webroot/img/tour/tmp/img511_2017_04_30_12_43_37.jpg' in [/home/greatkohinoor/public_html/src/Controller/DashboardController.php, line 445]
+Request URL: /dashboard/fileUpload?type=tour
+Referer URL: http://www.greatkohinoorhimalaya.com/dashboard/editTour/6
+Client IP: 27.34.16.85
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+move_uploaded_file - [internal], line ??
+App\Controller\DashboardController::fileUpload() - APP/Controller/DashboardController.php, line 445
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-04-30 12:43:37 Warning: Warning (2): getimagesize(/home/greatkohinoor/public_html/src/../webroot/img/tour/tmp/img511_2017_04_30_12_43_37.jpg) [<a href='http://php.net/function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in [/home/greatkohinoor/public_html/src/Controller/Component/SimpleImageComponent.php, line 1235]
+Request URL: /dashboard/fileUpload?type=tour
+Referer URL: http://www.greatkohinoorhimalaya.com/dashboard/editTour/6
+Client IP: 27.34.16.85
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+getimagesize - [internal], line ??
+App\Controller\Component\SimpleImageComponent::get_meta_data() - APP/Controller/Component/SimpleImageComponent.php, line 1235
+App\Controller\Component\SimpleImageComponent::load() - APP/Controller/Component/SimpleImageComponent.php, line 520
+App\Controller\Component\SimpleImageComponent::loader() - APP/Controller/Component/SimpleImageComponent.php, line 33
+App\Controller\DashboardController::fileUpload() - APP/Controller/DashboardController.php, line 446
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-04-30 12:43:37 Error: Fatal Error (1): Class 'App\Controller\Component\Exception' not found in [/home/greatkohinoor/public_html/src/Controller/Component/SimpleImageComponent.php, line 1248]
+Request URL: /dashboard/fileUpload?type=tour
+Referer URL: http://www.greatkohinoorhimalaya.com/dashboard/editTour/6
+Client IP: 27.34.16.85
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2017-04-30 12:43:37 Error: [Cake\Error\FatalErrorException] Class 'App\Controller\Component\Exception' not found
+Request URL: /dashboard/fileUpload?type=tour
+Referer URL: http://www.greatkohinoorhimalaya.com/dashboard/editTour/6
+Client IP: 27.34.16.85
+Stack Trace:
+#0 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\Cont...', '/home/greatkohi...', 1248)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-04-30 12:43:38 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /img/tour/resized/%3Cpre%20class=
+Referer URL: http://www.greatkohinoorhimalaya.com/dashboard/editTour/6
+Client IP: 27.34.16.85
+Stack Trace:
+#0 /home/greatkohinoor/public_html/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-30 12:43:39 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /img/tour/resized/%3Cpre%20class=
+Referer URL: http://www.greatkohinoorhimalaya.com/dashboard/editTour/6
+Client IP: 27.34.16.85
+Stack Trace:
+#0 /home/greatkohinoor/public_html/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-30 12:46:17 Warning: Warning (2): move_uploaded_file(/home/greatkohinoor/public_html/src/../webroot/img/tour/tmp/img735_2017_04_30_12_46_17.jpg): failed to open stream: Permission denied in [/home/greatkohinoor/public_html/src/Controller/DashboardController.php, line 445]
+Request URL: /dashboard/fileUpload?type=tour
+Referer URL: http://www.greatkohinoorhimalaya.com/dashboard/editTour/6
+Client IP: 27.34.16.85
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+move_uploaded_file - [internal], line ??
+App\Controller\DashboardController::fileUpload() - APP/Controller/DashboardController.php, line 445
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-04-30 12:46:17 Warning: Warning (2): move_uploaded_file() [<a href='http://php.net/function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/tmp/phpaYvFcA' to '/home/greatkohinoor/public_html/src/../webroot/img/tour/tmp/img735_2017_04_30_12_46_17.jpg' in [/home/greatkohinoor/public_html/src/Controller/DashboardController.php, line 445]
+Request URL: /dashboard/fileUpload?type=tour
+Referer URL: http://www.greatkohinoorhimalaya.com/dashboard/editTour/6
+Client IP: 27.34.16.85
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+move_uploaded_file - [internal], line ??
+App\Controller\DashboardController::fileUpload() - APP/Controller/DashboardController.php, line 445
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-04-30 12:46:17 Warning: Warning (2): getimagesize(/home/greatkohinoor/public_html/src/../webroot/img/tour/tmp/img735_2017_04_30_12_46_17.jpg) [<a href='http://php.net/function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in [/home/greatkohinoor/public_html/src/Controller/Component/SimpleImageComponent.php, line 1235]
+Request URL: /dashboard/fileUpload?type=tour
+Referer URL: http://www.greatkohinoorhimalaya.com/dashboard/editTour/6
+Client IP: 27.34.16.85
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+getimagesize - [internal], line ??
+App\Controller\Component\SimpleImageComponent::get_meta_data() - APP/Controller/Component/SimpleImageComponent.php, line 1235
+App\Controller\Component\SimpleImageComponent::load() - APP/Controller/Component/SimpleImageComponent.php, line 520
+App\Controller\Component\SimpleImageComponent::loader() - APP/Controller/Component/SimpleImageComponent.php, line 33
+App\Controller\DashboardController::fileUpload() - APP/Controller/DashboardController.php, line 446
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-04-30 12:46:17 Error: Fatal Error (1): Class 'App\Controller\Component\Exception' not found in [/home/greatkohinoor/public_html/src/Controller/Component/SimpleImageComponent.php, line 1248]
+Request URL: /dashboard/fileUpload?type=tour
+Referer URL: http://www.greatkohinoorhimalaya.com/dashboard/editTour/6
+Client IP: 27.34.16.85
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2017-04-30 12:46:17 Error: [Cake\Error\FatalErrorException] Class 'App\Controller\Component\Exception' not found
+Request URL: /dashboard/fileUpload?type=tour
+Referer URL: http://www.greatkohinoorhimalaya.com/dashboard/editTour/6
+Client IP: 27.34.16.85
+Stack Trace:
+#0 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\Cont...', '/home/greatkohi...', 1248)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-04-30 12:46:18 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /img/tour/resized/%3Cpre%20class=
+Referer URL: http://www.greatkohinoorhimalaya.com/dashboard/editTour/6
+Client IP: 27.34.16.85
+Stack Trace:
+#0 /home/greatkohinoor/public_html/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-30 12:46:19 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /img/tour/resized/%3Cpre%20class=
+Referer URL: http://www.greatkohinoorhimalaya.com/dashboard/editTour/6
+Client IP: 27.34.16.85
+Stack Trace:
+#0 /home/greatkohinoor/public_html/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-30 12:46:19 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /img/tour/resized/%3Cpre%20class=
+Referer URL: http://www.greatkohinoorhimalaya.com/dashboard/editTour/6
+Client IP: 27.34.16.85
+Stack Trace:
+#0 /home/greatkohinoor/public_html/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-30 12:46:27 Warning: Warning (2): move_uploaded_file(/home/greatkohinoor/public_html/src/../webroot/img/tour/tmp/img689_2017_04_30_12_46_27.jpg): failed to open stream: Permission denied in [/home/greatkohinoor/public_html/src/Controller/DashboardController.php, line 445]
+Request URL: /dashboard/fileUpload?type=tour
+Referer URL: http://www.greatkohinoorhimalaya.com/dashboard/editTour/6
+Client IP: 27.34.16.85
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+move_uploaded_file - [internal], line ??
+App\Controller\DashboardController::fileUpload() - APP/Controller/DashboardController.php, line 445
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-04-30 12:46:27 Warning: Warning (2): move_uploaded_file() [<a href='http://php.net/function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/tmp/phpRe10Fm' to '/home/greatkohinoor/public_html/src/../webroot/img/tour/tmp/img689_2017_04_30_12_46_27.jpg' in [/home/greatkohinoor/public_html/src/Controller/DashboardController.php, line 445]
+Request URL: /dashboard/fileUpload?type=tour
+Referer URL: http://www.greatkohinoorhimalaya.com/dashboard/editTour/6
+Client IP: 27.34.16.85
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+move_uploaded_file - [internal], line ??
+App\Controller\DashboardController::fileUpload() - APP/Controller/DashboardController.php, line 445
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-04-30 12:46:27 Warning: Warning (2): getimagesize(/home/greatkohinoor/public_html/src/../webroot/img/tour/tmp/img689_2017_04_30_12_46_27.jpg) [<a href='http://php.net/function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in [/home/greatkohinoor/public_html/src/Controller/Component/SimpleImageComponent.php, line 1235]
+Request URL: /dashboard/fileUpload?type=tour
+Referer URL: http://www.greatkohinoorhimalaya.com/dashboard/editTour/6
+Client IP: 27.34.16.85
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+getimagesize - [internal], line ??
+App\Controller\Component\SimpleImageComponent::get_meta_data() - APP/Controller/Component/SimpleImageComponent.php, line 1235
+App\Controller\Component\SimpleImageComponent::load() - APP/Controller/Component/SimpleImageComponent.php, line 520
+App\Controller\Component\SimpleImageComponent::loader() - APP/Controller/Component/SimpleImageComponent.php, line 33
+App\Controller\DashboardController::fileUpload() - APP/Controller/DashboardController.php, line 446
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-04-30 12:46:27 Error: Fatal Error (1): Class 'App\Controller\Component\Exception' not found in [/home/greatkohinoor/public_html/src/Controller/Component/SimpleImageComponent.php, line 1248]
+Request URL: /dashboard/fileUpload?type=tour
+Referer URL: http://www.greatkohinoorhimalaya.com/dashboard/editTour/6
+Client IP: 27.34.16.85
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2017-04-30 12:46:27 Error: [Cake\Error\FatalErrorException] Class 'App\Controller\Component\Exception' not found
+Request URL: /dashboard/fileUpload?type=tour
+Referer URL: http://www.greatkohinoorhimalaya.com/dashboard/editTour/6
+Client IP: 27.34.16.85
+Stack Trace:
+#0 /home/greatkohinoor/public_html/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\Cont...', '/home/greatkohi...', 1248)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-04-30 12:46:28 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /img/tour/resized/%3Cpre%20class=
+Referer URL: http://www.greatkohinoorhimalaya.com/dashboard/editTour/6
+Client IP: 27.34.16.85
+Stack Trace:
+#0 /home/greatkohinoor/public_html/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-30 12:46:29 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /img/tour/resized/%3Cpre%20class=
+Referer URL: http://www.greatkohinoorhimalaya.com/dashboard/editTour/6
+Client IP: 27.34.16.85
+Stack Trace:
+#0 /home/greatkohinoor/public_html/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-30 12:46:29 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /img/tour/resized/%3Cpre%20class=
+Referer URL: http://www.greatkohinoorhimalaya.com/dashboard/editTour/6
+Client IP: 27.34.16.85
+Stack Trace:
+#0 /home/greatkohinoor/public_html/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-04-30 13:12:45 Error: [Cake\Routing\Exception\MissingControllerException] Controller class New_layout could not be found.
+Exception Attributes: array (
+  'class' => 'New_layout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /new_layout/css/bootstrap.css.map
+Client IP: 27.34.16.85
+Stack Trace:
+#0 /home/greatkohinoor/public_html/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
